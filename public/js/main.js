@@ -2173,3 +2173,26 @@ jQuery(document).ready(function(){
   }
 
 }());
+
+//Login
+$('#bt-entrar, .bt-divulgue').click(function(){
+		$('#box-login').toggleClass('opened');
+		$('body').toggleClass('panel-opened');
+		
+		/*$('body').css({"overflow":"hidden"});
+		$('.master-content').css({"position":"fixed"});
+		$('#box-login').css({"background-color":"#f1f1f1","display":"block"});
+		$('#box-login').animate({width: '275px'});*/
+	});
+		
+	$('#bt-sair').click(function(){
+		$('body').css({"overflow":"scroll"});
+		$('.master-content').css({"position":"relative"});
+		
+		$('#box-login').animate({
+				width: '0px',
+		},function(){
+			$('#box-login').css({"background-color":"none","display":"none"});
+			$('#box-login-int').css({"box-shadow":"none"});
+		});
+	});

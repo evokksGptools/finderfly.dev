@@ -89,9 +89,9 @@
 		<div class="col-sm-6 col-md-6 formato-b">
 			{{ HTML::image('img/finderfly/Img-013.png','',array('class'=>'img1 active'))  }}
 			{{ HTML::image('img/finderfly/Img-014.png','',array('class'=>'img2'))  }}
-			{{ HTML::image('img/finderfly/Img-015.png','',array('class'=>'img3'))  }}
-			{{ HTML::image('img/finderfly/Img-016.png','',array('class'=>'img4'))  }}
-			{{ HTML::image('img/finderfly/Img-017.png','',array('class'=>'img5'))  }}
+			{{ HTML::image('img/finderfly/Img-015.png','',array('class'=>'img5'))  }}
+			{{ HTML::image('img/finderfly/Img-016.png','',array('class'=>'img3'))  }}
+			{{ HTML::image('img/finderfly/Img-017.png','',array('class'=>'img4'))  }}
 		</div>
 	</div>
 </div>

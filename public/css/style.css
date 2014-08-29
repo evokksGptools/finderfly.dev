@@ -3095,10 +3095,10 @@ blockquote small {
 .header .logo-box {
   display: table;
   table-layout: fixed;
+  margin-top:15px;
 }
 .header .logo {
   display: table-cell;
-  height: 60px;
   max-width: 100%;
   vertical-align: middle;
   width: 100%;
@@ -3149,7 +3149,8 @@ blockquote small {
   background-image: url('../img/header/back-header.png');
   -webkit-transition: background 0.2s linear;
   transition: background 0.2s linear;
-  background-size: 26px;
+  background-size: 28px;
+  background-position: 0px;
 }
 .fixed-header.background-opacity .header-wrapper {
    background-image: url('../img/header/back-header.png');
@@ -4460,7 +4461,7 @@ blockquote small {
   display: inline-block;
   text-decoration: inherit;
   margin-right: 0;
-  margin-top: 10px;
+  margin-top: 7px;
   text-align: center;
   width: 40px;
   font-size: 19px;
@@ -10780,7 +10781,7 @@ a.big-icon:hover {
 
 .form1{
   width: 820px;
-  height: 507px;
+  height: 510px;
   border: 1px solid #505050;
   float: left;
   border-radius: 5px;
@@ -10934,61 +10935,61 @@ margin-bottom: 20px;
 .fnac{
   width:170px;
   height:103px;
-  background-image: url('../img/finderfly/Img-026.png');
+  background-image: url('../img/finderfly/Img-020.png');
 }
 
 .fnac:hover{
-  background-image: url('../img/finderfly/Img-020.png');
+  background-image: url('../img/finderfly/Img-026.png');
 }
 
 .saraiva{
   width:170px;
   height:103px;
-  background-image: url('../img/finderfly/Img-027.png');
+  background-image: url('../img/finderfly/Img-021.png');
 }
 
 .saraiva:hover{
-  background-image: url('../img/finderfly/Img-021.png');
+  background-image: url('../img/finderfly/Img-027.png');
 }
 
 .centauro{
   width:170px;
   height:103px;
-  background-image: url('../img/finderfly/Img-028.png');
+  background-image: url('../img/finderfly/Img-022.png');
 }
 
 .centauro:hover{
-  background-image: url('../img/finderfly/Img-022.png');
+  background-image: url('../img/finderfly/Img-028.png');
 }
 
 .ricardo{
   width:170px;
   height:103px;
-  background-image: url('../img/finderfly/Img-029.png');
+  background-image: url('../img/finderfly/Img-023.png');
 }
 
 .ricardo:hover{
-  background-image: url('../img/finderfly/Img-023.png');
+  background-image: url('../img/finderfly/Img-029.png');
 }
 
 .marisa{
   width:170px;
   height:103px;
-  background-image: url('../img/finderfly/Img-030.png');
+  background-image: url('../img/finderfly/Img-024.png');
 }
 
 .marisa:hover{
-  background-image: url('../img/finderfly/Img-024.png');
+  background-image: url('../img/finderfly/Img-030.png');
 }
 
 .americanas{
   width:170px;
   height:103px;
-  background-image: url('../img/finderfly/Img-031.png');
+  background-image: url('../img/finderfly/Img-025.png');
 }
 
 .americanas:hover{
-  background-image: url('../img/finderfly/Img-025.png');
+  background-image: url('../img/finderfly/Img-031.png');
 }
 
 .promo-partners p{

@@ -326,8 +326,14 @@
 			  </div>
 			</div><!-- .primary -->
 		</div>
+		<div id="bt-entrar">
+			<span class="icon"></span>
+			<span>Login / Registrar</span>
+		</div>
 	  </div><!--.row -->
 	</div>
+
   </div><!-- .header-wrapper -->
+@include('topo.login')
 </header><!-- .header -->
 @stop

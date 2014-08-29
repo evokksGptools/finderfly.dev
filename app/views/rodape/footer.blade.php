@@ -82,7 +82,7 @@ width: 209px;">
 </div>
 <div id = "copyright" class = "row">
 							<div class="col-sm-12"> 
-								<span style = "font-weight:bold;font-size:12px; display: inline-block; margin-bottom: 5px">Copyright 2011-2014 Pricefinder Servi&ccedil;os Ltda.</span><br>
+								<span style = "font-weight:bold;font-size:12px; display: inline-block">Copyright 2011-2014 Pricefinder Servi&ccedil;os Ltda.</span><br>
 								O conte&uacute;do desse site &eacute; de uso exclusivo, proibida sob as penas da lei sua reprodu&ccedil;&atilde;o ou utiliza&ccedil;&atilde;o
 							</div>
 						</div>

@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Creative Home \ Progressive — Responsive Multipurpose HTML Template</title>
+  <title>Finderfly</title>
   <meta name="keywords" content="HTML5 Template">
   <meta name="description" content="Progressive — Responsive Multipurpose HTML Template">
   <meta name="author" content="itembridge.com">
@@ -33,8 +33,10 @@
   <link rel="stylesheet" href="css/datepicker.css">
   
   <!-- Theme CSS -->
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/price-style.css">
+  <link rel="stylesheet" href="css/styles-fly.css">
+  <link rel="stylesheet" href="css/style.css">
+  
 
   <!-- Responsive CSS -->
   <link rel="stylesheet" href="css/responsive.css">
