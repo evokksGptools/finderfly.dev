@@ -38,7 +38,9 @@
 					<div class="submenu">
 						<span class="titulo_rodape">Divulgue e Ganhe</span>
 						<ul style="border-right: none;">
-							<li><a href="http://pricefinder.com.brhttp://www.finderfly.com.br" class="normal" target="_blank">Finderfly</a></li>
+							<li><a href="#" class="normal" target="_blank">Finderstore - Produtos e Serviços</a></li>
+							<li><a href="http://www.finderpay.com.br" class="normal" target="_blank">Finderpay - Serviço Financeiro</a></li>
+							<li><a href="/" class="normal" target="_blank">Finderfly - Programa de Afiliados</a></li>
 						</ul>
 					</div>
 

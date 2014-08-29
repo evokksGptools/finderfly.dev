@@ -6,7 +6,7 @@
 		<div class="col-xs-6 col-md-2 col-lg-3 logo-box">
 		  <div class="logo">
 			<a href="/">
-			  <img src="img/finderfly/logofly.png" class="logo-img" alt="">
+			  <img src="img/finderfly/finderfly-logo.png" class="logo-img" alt="">
 			</a>
 		  </div>
 		</div><!-- .logo-box -->
@@ -327,8 +327,8 @@
 			</div><!-- .primary -->
 		</div>
 		<div id="bt-entrar">
+			<span style = "margin-right: 15px;">Entrar</span>
 			<span class="icon"></span>
-			<span>Login / Registrar</span>
 		</div>
 	  </div><!--.row -->
 	</div>
