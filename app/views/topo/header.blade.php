@@ -5,7 +5,7 @@
 	  <div class="row">
 		<div class="col-xs-6 col-md-2 col-lg-3 logo-box">
 		  <div class="logo">
-			<a href="index.html">
+			<a href="/">
 			  <img src="img/finderfly/logofly.png" class="logo-img" alt="">
 			</a>
 		  </div>
@@ -13,9 +13,9 @@
 		
 		<div class="col-xs-6 col-md-10 col-lg-9 right-box">
 			<ul class = "menu-prov">
-				<li><a href = "#publishers" data-scroll = "#publishers">Publishers</a></li>
-				<li><a href = "#anucniantes" data-scroll = "#anunciantes">Anunciantes</a></li>
-				<li><a href = "#" data-scroll = "#formatos">Formatos</a></li>
+				<li><a href = "#publishers" data-scroll = "publishers">Publishers</a></li>
+				<li><a href = "#anucniantes" data-scroll = "anunciantes">Anunciantes</a></li>
+				<li><a href = "#" data-scroll = "formatos">Formatos</a></li>
 			</ul>
 		  <!--<div class="right-box-wrapper">
 			<div class="header-icons">

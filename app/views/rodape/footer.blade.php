@@ -10,35 +10,35 @@
 					<div class="submenu">
 						<span class="titulo_rodape">Pricefinder</span>
 						<ul>
-							<li><a href="/quem-somos" class="normal">Quem Somos</a></li>
-							<li><a href="/termos-de-uso" class="normal">Termos de Uso</a></li>
-							<li><a href="/politica-de-privacidade" class="normal">Pol&iacute;tica de Privacidade</a></li>
-							<li><a href="/faq" class="normal">FAQ</a></li>
+							<li><a href="http://pricefinder.com.br/quem-somos" class="normal" target="_blank">Quem Somos</a></li>
+							<li><a href="http://pricefinder.com.br/termos-de-uso" class="normal" target="_blank">Termos de Uso</a></li>
+							<li><a href="http://pricefinder.com.br/politica-de-privacidade" class="normal" target="_blank">Pol&iacute;tica de Privacidade</a></li>
+							<li><a href="http://pricefinder.com.br/faq" class="normal" target="_blank">FAQ</a></li>
 						</ul>
 					</div>
 					<div class="submenu">
 						<span class="titulo_rodape">Voc&ecirc;</span> 
 						<ul>
-							<li><a href="/compra-garantida" class="normal">Compra Garantida</a></li>
-							<li><a href="/principais_lojas" class="normal">Principais Lojas</a></li>
-							<li><a href="/fale-conosco" class="normal">Fale Conosco</a></li>
-							<li><a href="/atendimento-lojista" class="normal">Atendimento ao Lojista</a></li>
+							<li><a href="http://pricefinder.com.br/compra-garantida" class="normal" target="_blank">Compra Garantida</a></li>
+							<li><a href="http://pricefinder.com.br/principais_lojas" class="normal" target="_blank">Principais Lojas</a></li>
+							<li><a href="http://pricefinder.com.br/fale-conosco" class="normal" target="_blank">Fale Conosco</a></li>
+							<li><a href="http://pricefinder.com.br/atendimento-lojista" class="normal" target="_blank">Atendimento ao Lojista</a></li>
 						</ul>
 					</div>
 					<div class="submenu">
 						<span class="titulo_rodape">Produtos | Empresas</span>
 						<ul>
-							<li><a href="/anuncie_gratis" class="normal">Anuncie Grátis</a></li>
-							<li><a href="/banners" class="normal">Banners</a></li>
-							<li><a href="/destaque_loja" class="normal">Destaque Loja</a></li>
-							<li><a href="/#" class="normal">Links Patrocinados</a></li>
-							<li><a href="/email-marketing" class="normal">E-mail Marketing</a></li>
+							<li><a href="http://pricefinder.com.br/anuncie_gratis" class="normal" target="_blank">Anuncie Grátis</a></li>
+							<li><a href="http://pricefinder.com.br/banners" class="normal" target="_blank">Banners</a></li>
+							<li><a href="http://pricefinder.com.br/destaque_loja" class="normal" target="_blank">Destaque Loja</a></li>
+							<li><a href="http://pricefinder.com.br/#" class="normal" target="_blank">Links Patrocinados</a></li>
+							<li><a href="http://pricefinder.com.br/email-marketing" class="normal" target="_blank">E-mail Marketing</a></li>
 						</ul>
 					</div>
 					<div class="submenu">
 						<span class="titulo_rodape">Divulgue e Ganhe</span>
 						<ul style="border-right: none;">
-							<li><a href="http://www.finderfly.com.br" class="normal">Finderfly</a></li>
+							<li><a href="http://pricefinder.com.brhttp://www.finderfly.com.br" class="normal" target="_blank">Finderfly</a></li>
 						</ul>
 					</div>
 

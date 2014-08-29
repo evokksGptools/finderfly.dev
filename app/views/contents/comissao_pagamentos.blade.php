@@ -17,7 +17,7 @@
 <p>Ou seja, o publisher associado da nossa plataforma recebe a comissão pelo clique, normalmente; sem desagrados.</p>
 </div><!-- .promo-partners -->
 
-<div class="col-sm-6 col-md-6">
+<div class="col-sm-6 col-md-6" id = "pagamentos">
 	<div class="title-box">
 		<h1 class="title">Pagamentos</h1>
 	</div>

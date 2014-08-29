@@ -4,64 +4,64 @@
 		<div class="tp-banner">
 			<ul>
 				<li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
-					<!--<div class="elements">
+					<div class="elements">
 						<div class="tp-caption lfl"
-						data-x="211"
-						data-y="203"
+						data-x="20"
+						data-y="30"
 						data-speed="1000"
-						data-start="1500"
+						data-start="500"
 						data-easing="Power4.easeOut"
 						data-endspeed="500"
 						data-endeasing="Power1.easeIn"
 						style="z-index: 2">
-						<img src="img/content/slider/rs-slider4-img1.png" width="217" height="172" alt="">
+						<img src="img/finderfly/banner-001-01.png"  class = "link-banner" data-scroll = "pagamentos" style="cursor:pointer" width="555" height="114" alt="">
 						</div>
 
 						<div class="tp-caption lft"
-						data-x="97"
-						data-y="271"
+						data-x="250"
+						data-y="0"
 						data-speed="1000"
 						data-start="1000"
 						data-easing="Power4.easeOut"
 						data-endspeed="500"
 						data-endeasing="Power1.easeIn">
-						<img src="img/content/slider/rs-slider4-img2.png" width="71" height="104" alt="">
+						<img src="img/finderfly/banner-001-02.png" width="395" height="320" alt="">
 						</div>
 
 						<div class="tp-caption lft"
-						data-x="479"
-						data-y="271"
+						data-x="580"
+						data-y="0"
 						data-speed="1000"
-						data-start="1200"
+						data-start="1500"
 						data-easing="Power4.easeOut"
 						data-endspeed="500"
 						data-endeasing="Power1.easeIn">
-						<img src="img/content/slider/rs-slider4-img2.png" width="71" height="104" alt="">
+						<img src="img/finderfly/banner-001-03.png" width="281" height="320" alt="">
 						</div>
 			
 						<div class="tp-caption lfb"
-						data-x="-32"
-						data-y="372"
+						data-x="850"
+						data-y="0"
 						data-speed="1000"
-						data-start="1000"
+						data-start="2000"
 						data-easing="Power4.easeOut"
 						data-endspeed="500"
 						data-endeasing="Power1.easeIn">
-						<img src="img/content/slider/rs-slider4-img3.png" width="764" height="76" alt="">
+						<img src="img/finderfly/banner-001-04.png" width="348" height="320" alt="">
 						</div>
 
 						<div class="tp-caption lft"
-						data-x="166"
-						data-y="167"
+						data-x="-400"
+						data-y="0"
 						data-speed="1000"
 						data-start="1000"
 						data-easing="Power4.easeOut"
 						data-endspeed="500"
 						data-endeasing="Power1.easeIn">
-						<img src="img/content/slider/rs-slider4-img4.png" width="247" height="71" alt="">
+						<img src="img/finderfly/banner-001-05.png" width="585" height="320" alt="">
 						</div>
 
-						<div class="tp-caption customin"
+						<!--<div class="tp-caption customin"
 						data-x="177"
 						data-y="62"
 						data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 100%;"
@@ -224,59 +224,56 @@
 			</li>
 
 			<li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
-				<!--<div class="elements">
+				<div class="elements">
 					<div class="tp-caption lfb skewtobottom"
-					data-x="145"
-					data-y="66"
+					data-x="-10"
+					data-y="0"
 					data-speed="1000"
 					data-start="500"
 					data-easing="Power4.easeOut"
 					data-endspeed="500"
 					data-endeasing="Power1.easeIn"
 					style="z-index: 3">
-					<img src="img/content/slider/rs-slider1-phone.png" width="375" height="434" alt="">
+					<img src="img/finderfly/banner-002-01.png" width="672" height="320" alt="">
 					</div>
 
 					<div class="tp-caption lfb skewtobottom"
-					data-x="307"
-					data-y="105"
-					data-speed="1000"
-					data-start="500"
-					data-easing="Power4.easeOut"
-					data-endspeed="400"
-					data-endeasing="Power1.easeIn"
-					style="z-index: 1">
-					<img src="img/content/slider/rs-slider1-phone-bg.png" width="160" height="296" alt="">
-					</div>
-
-					<h2 class="tp-caption sft skewtotop title"
 					data-x="590"
-					data-y="101"
-					data-speed="1000"
-					data-start="500"
-					data-easing="Power4.easeOut"
-					data-endspeed="400"
-					data-endeasing="Power1.easeIn">
-					Clean &amp; Valid code
-					</h2>
-
-					<div class="tp-caption lfr skewtoright description cm-description-2"
-					data-x="575"
-					data-y="189"
+					data-y="0"
 					data-speed="1000"
 					data-start="1000"
 					data-easing="Power4.easeOut"
 					data-endspeed="400"
 					data-endeasing="Power1.easeIn"
-					style="max-width: 600px;">
-					<p>Perfect HTML5 &amp; CSS3. Valid code, latest technologies, always
-						up-to-date. Compatible with the latest desktop and mobile
-						browsers down to IE8. Works perfectly wherever you need
-						and wherever you want.
-					</p>
+					style="z-index: 1">
+					<img src="img/finderfly/banner-002-02.png" width="309" height="320" alt="">
 					</div>
 
-					<a href="http://themeforest.net/item/progressive-multipurpose-responsive-template/7197521"
+					<div class="tp-caption lfr skewtoright description cm-description-2"
+					data-x="900"
+					data-y="0"
+					data-speed="1000"
+					data-start="1500"
+					data-easing="Power4.easeOut"
+					data-endspeed="400"
+					data-endeasing="Power1.easeIn"
+					style="max-width: 600px;">
+					<img src="img/finderfly/banner-002-03.png" width="316" height="320" alt="">
+					</div>
+
+					<div class="tp-caption lfr skewtoright description cm-description-2"
+					data-x="650"
+					data-y="10"
+					data-speed="1000"
+					data-start="2000"
+					data-easing="Power4.easeOut"
+					data-endspeed="400"
+					data-endeasing="Power1.easeIn"
+					style="max-width: 600px;">
+					<img src="img/finderfly/banner-002-04.png" width="504" height="137" alt="" class = "link-banner" data-scroll = "formatos" style="cursor: pointer">
+					</div>
+
+					<!--<a href="http://themeforest.net/item/progressive-multipurpose-responsive-template/7197521"
 					class="btn tp-caption customin cherry btn-default"
 					data-x="590"
 					data-y="332"
@@ -358,7 +355,7 @@
 					CSS3
 					</div>
 				</div>-->
-				<img src="img/finderfly/banner-002.png" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat">
+				<img src="img/finderfly/banner-002.png" alt="" data-bgfit="contain" data-bgposition="center top" data-bgrepeat="no-repeat">
 			</li>
 
 			<!--<li data-delay="10300" data-transition="fade" data-slotamount="7" data-masterspeed="2000" class="slid2">

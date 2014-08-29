@@ -63,10 +63,10 @@ $(document).ready(function(){
 	});
 
 jQuery(document).ready(function(){
- jQuery('.menu-prov li a').click(function(e){
+ jQuery('.menu-prov li a, .link-banner').click(function(e){
   e.preventDefault();
  
-  var element = jQuery(this).data('scroll');
+  var element = '#'+jQuery(this).data('scroll');
   var scroll = jQuery(element).offset().top - 60;
   console.log(scroll);
   jQuery('body').animate({scrollTop: scroll },'slow');
