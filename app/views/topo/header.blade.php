@@ -16,6 +16,7 @@
 				<li><a href = "#publishers" data-scroll = "publishers">Publishers</a></li>
 				<li><a href = "#anucniantes" data-scroll = "anunciantes">Anunciantes</a></li>
 				<li><a href = "#" data-scroll = "formatos">Formatos</a></li>
+				<li><a href = "#" data-scroll = "contato">Contato</a></li>
 			</ul>
 		  <!--<div class="right-box-wrapper">
 			<div class="header-icons">
