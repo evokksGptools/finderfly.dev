@@ -2196,3 +2196,5 @@ $('#bt-entrar, .bt-divulgue').click(function(){
 			$('#box-login-int').css({"box-shadow":"none"});
 		});
 	});
+
+//Validação de formulário

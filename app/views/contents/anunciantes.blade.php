@@ -13,11 +13,9 @@
 				<h3 class="title">Vantagens</h3>
 			</div>
 			<p>
-				Para receber essas medidas é muito simples: de preferência, poste um banner na Home de seu blog/site, e você pode iniciar a avaliação das informações disponibilizadas para uma melhor interação com seu público.<br><br>
+				O FinderFly é uma plataforma que possui a melhor opção de qualidade, praticidade e segmentação. E para essa eficácia se concretizar e garantir a qualidade de conteúdo, todos os nossos afiliados são submetidos a um procedimento de seleção.<br><br>
 
-				Análises de gênero, faixa etária, grau de escolaridade e poder de compra são algumas dos benefícios que esta ferramenta oferece.<br><br>
-
-				O publisher possui tais dados ao seu alcance, assim, ampliando suas chances de lucro e o auxiliando no aprimoramento de conteúdo publicitário de acordo com o perfil do seu target.
+				Você pode ter um panorama do processo, visualizando as transações pendentes e verificar seu andamento: se serão canceladas ou confirmadas. Ou seja, você é beneficiado diretamente pelo profissionalismo e competência dos especialistas do FinderFly.
 			</p>
 
 			<div class="clearfix"></div>

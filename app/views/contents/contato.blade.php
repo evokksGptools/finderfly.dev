@@ -10,7 +10,7 @@
 			</div>
 			<p style = "margin-bottom: 0px;">
 				Cadastre-se no FinderFly e tenha acesso a diversos formatos em nossa plataforma e ganhe dinheiro com seu site, rede social, ou publicidade.<br><br></p>
-				{{ Form::open(array('url'=>'#','name'=>'form-contato','class'=>'form1')) }}
+				{{ Form::open(array('url'=>'','name'=>'form-contato','class'=>'form1','onsubmit'=>'return validateForm()')) }}
 					<div>
 						{{ Form::text('seu_email', '', array('placeholder'=>'Seu e-mail*','class'=>'input-text'))  }}
 						{{ Form::text('confirme_email', '', array('placeholder'=>'Confirme seu e-mail*','class'=>'input-text'))  }}
@@ -35,4 +35,11 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	function validateForm() {
+	return false;
+	}	
+
+</script>
 @stop
