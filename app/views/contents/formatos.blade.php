@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="col-sm-12 col-md-12">
 			<div class="title-box">
-				<h1 class="title">Formatos</h1>
+				<h2 class="title">Formatos</h2>
 			</div>
 			<p class="bottom-padding">Publishers e anunciantes que utilizam a Plataforma Lomadee contam com um leque variado de opções para a veiculação de campanhas publicitárias. Conheça abaixo os formatos que o programa oferece:</p><br>
 		</div>

@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="col-sm-6 col-md-6 promo-partners bottom-padding">
 			<div class="title-box">
-				<h1 class="title">Comissão</h1>
+				<h2 class="title">Comissão</h2>
 			</div>
 			<div class="row manufactures manufactures-list">
 				<div class="make-wrapper img-comissao">
@@ -19,7 +19,7 @@
 
 <div class="col-sm-6 col-md-6" id = "pagamentos">
 	<div class="title-box">
-		<h1 class="title">Pagamentos</h1>
+		<h2 class="title">Pagamentos</h2>
 	</div>
 	<p>Os publishers que se afiliarem ao nosso sistema possuem os seguintes benefícios:</p>
 	<ul class="latest-posts">

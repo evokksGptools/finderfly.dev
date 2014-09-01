@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="bottom-padding col-sm-12 col-md-12 no-bottom">
 			<div class="title-box">
-				<h1 class="title">Publishers</h1>
+				<h2 class="title">Publishers</h2>
 			</div>
 		</div>
 		<div class="bottom-padding col-sm-6 col-md-6 no-bottom">

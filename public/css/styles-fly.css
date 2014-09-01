@@ -237,13 +237,13 @@ z-index: 3;}
 	float: left;display: block;
 }
 #bt-entrar span{
-	display: inline-block;margin-top: 16px;color: #FFF;margin-left: 10px;font-size: 14px;font-weight: normal;float: left;
+	display: inline-block;margin-top: 12px;color: #FFF;margin-left: 10px;font-size: 14px;font-weight: normal;float: left;
 }
 .panel-opened #bt-entrar span.icon{
 	background-position: 0px 0px;
 }
 #bt-entrar span.icon{
-	display: block;width: 55px;height: 50px;float: left;margin: 0;background-image: url(../img/finderfly/Ico-menu-3.png);background-position: 0px -51px;
+	display: block;width: 55px;height: 50px;float: left;margin: 0;background-image: url(../img/finderfly/Ico-menu-3.png);background-position: 0px -55px;
 }
 #bt-sair img{
 	float: left;display: block;
@@ -448,13 +448,13 @@ div[data-id="d"] select{
 	display: none !important;
 }
 .panel-opened #box-login{
-	height: 900px !important;width: 275px;display: block;top: 70px;right: 0;border-left: 1px solid #a7a9ab;
+	height: 900px !important;width: 275px;display: block;top: 60px;right: 0;border-left: 1px solid #a7a9ab;
 }
 #box-login{
 	width: 0px;	height: 100%;position: absolute;right: 0px;	overflow:hidden;top: 60px;z-index: 1;-webkit-box-shadow: 2px 1px 6px #a7a9ab;-moz-box-shadow: 2px 1px 6px #a7a9ab;box-shadow: 1px 1px 6px #a7a9ab;-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a7a9ab')";filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#a7a9ab');-webkit-transition: all 0.3s linear;-moz-transition: all 0.3s linear;-o-transition: all 0.3s linear;transition: all 0.3s linear;background-color: #f1f1f1;height: 900px;
 }
 #trr-socialheader{
-	border-left: 1px solid #a7a9ab;	height: 80px; position:absolute; top:0;	background-size: cover; background-image: url(../img/finderfly/ico-menu.jpg); margin-top: -10px;position: absolute;top: 0;-webkit-transition: 0.3s all linear;-moz-transition: 0.3s all linear;-o-transition: 0.3s all linear;transition: 0.3s all linear;width: 0;right: 0;top: 0;z-index: 2;
+	border-left: 1px solid #a7a9ab;	height: 60px; position:absolute; top:0;	background-size: cover; background-image: url(../img/finderfly/ico-menu.jpg);position: absolute;top: 0;-webkit-transition: 0.3s all linear;-moz-transition: 0.3s all linear;-o-transition: 0.3s all linear;transition: 0.3s all linear;width: 0;right: 0;top: 0;z-index: 2;
 }
 .panel-opened #trr-socialheader{
 	width: 275px;	
@@ -477,7 +477,7 @@ div[data-id="d"] select{
         #bt-entrar {
           position: relative; !important;
           right: -94px !important;
-          top: 10px !important;
+          top: 6px !important;
           cursor: pointer !important;
           margin-right: 30px !important;
           z-index: 3;
@@ -493,7 +493,7 @@ div[data-id="d"] select{
         #bt-entrar {
           position: absolute; !important;
           right: -350px !important;
-          top: 10px !important;
+          top: 6px !important;
           cursor: pointer !important;
           margin-right: 30px !important;
           z-index: 3;

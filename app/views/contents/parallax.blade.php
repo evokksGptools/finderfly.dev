@@ -8,7 +8,7 @@
 
 		<div class="bottom-padding col-sm-12 col-md-12">
 			<div class="title-box">
-				<h1 class="title" style="color:#FFF">Modelo Comercial</h1>
+				<h2 class="title" style="color:#FFF">Modelo Comercial</h2>
 			</div>
 			<p>
 				No FinderFly, o publisher é beneficiado através dos diferentes modelos de remuneração para que possa selecionar o mais apto às suas necessidades, fazendo com que o ganho de dinheiro pela internet não seja um procedimento demorado e complicado.</p>

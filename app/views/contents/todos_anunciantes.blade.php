@@ -1,7 +1,7 @@
 @section('todos_anunciantes')
 <div class="container">
 <div class="title-box">
-		<h1 class="title">Todos Anunciantes</h1>
+		<h2 class="title">Todos Anunciantes</h2>
 	</div>
 	<p>O FinderFly é uma plataforma na qual você opta diante diversos anunciantes que possuem os melhores modelos. Geramos taxa de conversão, propiciando serviços e produtos segmentados e adaptados ao seu conteúdo.</p>
 

@@ -6,7 +6,7 @@
 
 		<div class="col-sm-12 col-md-12">
 			<div class="title-box">
-				<h1 class="title">Contato</h1>
+				<h2 class="title">Contato</h2>
 			</div>
 			<p style = "margin-bottom: 0px;">
 				Cadastre-se no FinderFly e tenha acesso a diversos formatos em nossa plataforma e ganhe dinheiro com seu site, rede social, ou publicidade.<br><br></p>

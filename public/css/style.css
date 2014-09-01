@@ -79,6 +79,8 @@ body {
   -webkit-appearance: none;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  font-size: 16px;
+  color: #787878;
 }
 body.loaded {
   overflow-x: inherit;
@@ -316,7 +318,7 @@ ol {
   margin: 0 0 0 0;
 }
 .text-small {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
 }
 .lead {
@@ -798,7 +800,7 @@ label {
   padding: 8px 12px;
   /*-webkit-appearance: none;*/
   width: 100%;
-  margin-right: 21px;
+  margin-right: 20px;
 }
 .selectBox:hover,
 .form-control:hover {
@@ -3104,7 +3106,7 @@ blockquote small {
 .header .logo-box {
   display: table;
   table-layout: fixed;
-  margin-top:15px;
+  margin-top:10px;
 }
 .header .logo {
   display: table-cell;
@@ -3160,9 +3162,11 @@ blockquote small {
   transition: background 0.2s linear;
   background-size: 28px;
   background-position: 0px;
+  background: linear-gradient(#1896a5, #70bcc9)
+
 }
 .fixed-header.background-opacity .header-wrapper {
-   background-image: url('../img/header/back-header.png');
+  background: linear-gradient(#1896a5, #70bcc9);
   -webkit-transition: background 0.2s linear;
   transition: background 0.2s linear;
 }
@@ -5362,7 +5366,7 @@ blockquote small {
 }
 .banner-set .banner {
   border-right-width: 1px;
-  color: #7f7f7f;
+  color: #787878;
   display: block;
   float: left;
   font-size: 12px;
@@ -5395,7 +5399,7 @@ blockquote small {
   -o-border-radius: 5px;
 }
 .banner-set .banner .title {
-  color: #7f7f7f;
+  color: #505050;
   font-size: 20px;
   font-weight: normal;
   line-height: 1.2;
@@ -5406,9 +5410,10 @@ blockquote small {
   transition: all .2s linear;
 }
 .banner-set .banner .description {
-  height: 100px;
+  height: 110px;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 16px;
 }
 .banner-set .banner .description span{
   color: #0000ff;
@@ -5618,7 +5623,7 @@ blockquote small {
 }
 .title-box .title {
   color: #7f7f7f;
-  font-size: 18px;
+  font-size: 25px;
   font-weight: normal;
   margin: 0 0 12px 0;
   padding: 14px 0 0;
@@ -10863,8 +10868,9 @@ div .input-text:last-child{
 
 .menu-prov li{
   float: left;
-  padding: 21px;
+  padding: 18px;
   border-right: 1px solid #FFF;
+  height: 60px;
 }
 
 .menu-prov li:last-child{
@@ -10874,7 +10880,7 @@ div .input-text:last-child{
 
 .menu-prov li a{
   color: #FFF;
-  font-size: 18px
+  font-size: 16px
 }
 
 #text_newlet{
@@ -11002,7 +11008,7 @@ margin-bottom: 20px;
 }
 
 .promo-partners p{
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .bt-enviar{
@@ -11023,6 +11029,7 @@ margin: 0 auto;
 
 .label-news span{
   float: left;
+  font-size: 14px;
 }
 
 .new-radio input{
@@ -11048,3 +11055,6 @@ font-size: 16px;
 margin-right: 15px;
 }
 
+.title-box h3{
+  font-size: 20px !important;
+}

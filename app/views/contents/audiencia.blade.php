@@ -5,7 +5,7 @@
 
 		<div class="bottom-padding col-sm-12 col-md-12">
 			<div class="title-box">
-				<h1 class="title">Audiência</h1>
+				<h2 class="title">Audiência</h2>
 			</div>
 			<p>
 				Divulgar campanhas na internet requer conhecimento do público alvo, mas muitos divulgadores não possuem compreensão daquele.<br>

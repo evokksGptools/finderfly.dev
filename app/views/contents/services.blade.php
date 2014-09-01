@@ -3,7 +3,7 @@
 	<div class="row services">
 		<div class="col-sm-12 col-md-12">
 			<div class="title-box">
-				<h2 class="title">Disponibilizamos uma equipe especializada para realizar sua arte, otimizando e potencializando seu negócio:</h2>
+				<h3 class="title">Disponibilizamos uma equipe especializada para realizar sua arte, otimizando e potencializando seu negócio:</h3>
 			</div>
 		</div>
 
