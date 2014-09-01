@@ -1,11 +1,10 @@
 @section('footer')
 
-<div class="container" style="width: 100%;">
+<div class="container-foot">
 <div class="row" id="foot">
-	<div class="container" id="linha_foot">
-		<div class="wrapper_block">
+	<div class="linha_foot margin-top-foot">
+		<div class="wrapper_foot">
 			<div id="fb-root"></div>
-			<div class="row" id="margin-foot">
 				<div class = "cont-footer">
 					<div class="submenu">
 						<span class="titulo_rodape">Pricefinder</span>
@@ -60,12 +59,11 @@
 						</div>
 						<div class="label-news">
 							<span>Receba as novidades sobre nossos servi&ccedil;os.</span>
-							<div style = "display: inline-block;
-width: 209px;">
+							<div style = "display: inline-block;width: 230px;">
 								<span> Genero: </span>
-								<input type="radio" name="genero" value="F" style="margin-left: 5px;"/>
+								<input type="radio" name="genero" value="F"/>
 								<span>Feminino</span>
-								<input type="radio" name="genero" value="M" checked="checked" style="margin-left: 5px;"/>
+								<input type="radio" name="genero" value="M" checked="checked"/>
 								<span>Masculino</span>
 							</div>
 						</div>
@@ -79,12 +77,11 @@ width: 209px;">
 					{{ Form::close() }}
 				</div>
 			</div>
-		</div>
 	</div>
 </div>
 <div id = "copyright" class = "row">
 							<div class="col-sm-12"> 
-								<span style = "font-weight:bold;font-size:12px; display: inline-block">Copyright 2011-2014 Pricefinder Servi&ccedil;os Ltda.</span><br>
+								<span>Copyright 2011-2014 Pricefinder Servi&ccedil;os Ltda.</span><br>
 								O conte&uacute;do desse site &eacute; de uso exclusivo, proibida sob as penas da lei sua reprodu&ccedil;&atilde;o ou utiliza&ccedil;&atilde;o
 							</div>
 						</div>

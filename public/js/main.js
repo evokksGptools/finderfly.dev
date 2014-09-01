@@ -2198,3 +2198,33 @@ $('#bt-entrar, .bt-divulgue').click(function(){
 	});
 
 //Validação de formulário
+function validateForm() {
+
+	var b = $('.form1');
+	var novo = new Array();
+
+	jQuery('.required').each(function(){
+		var element = b.find('textarea,input[name='+jQuery(this).attr('name')+']');
+		console.log(element);
+		if(element.length){
+			if(element.val() == ""){
+				novo.push(element);	
+				jQuery(this).addClass('error');
+			}
+			else{
+				jQuery(this).removeClass('error');
+			}		
+		}
+	});
+
+	if(novo.length > 0){
+		return false;
+	}else{
+		return true;
+	}
+}
+
+$('input').keydown(function(){
+	$(this).removeClass('error');
+});
+

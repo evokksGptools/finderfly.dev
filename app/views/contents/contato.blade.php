@@ -12,21 +12,21 @@
 				Cadastre-se no FinderFly e tenha acesso a diversos formatos em nossa plataforma e ganhe dinheiro com seu site, rede social, ou publicidade.<br><br></p>
 				{{ Form::open(array('url'=>'','name'=>'form-contato','class'=>'form1','onsubmit'=>'return validateForm()')) }}
 					<div>
-						{{ Form::text('seu_email', '', array('placeholder'=>'Seu e-mail*','class'=>'input-text'))  }}
-						{{ Form::text('confirme_email', '', array('placeholder'=>'Confirme seu e-mail*','class'=>'input-text'))  }}
+						{{ Form::email('seu_email', '', array('placeholder'=>'Seu e-mail*','class'=>'input-text required email')) }}
+						{{ Form::email('confirme_email', '', array('placeholder'=>'Confirme seu e-mail*','class'=>'input-text required email'))  }}
 					</div>
 					
 					<div>
-						{{ Form::text('senha', '', array('placeholder'=>'Senha*','class'=>'input-text'))  }}
-						{{ Form::text('confirme_senha', '', array('placeholder'=>'Conformação de Senha*','class'=>'input-text'))  }}
+						{{ Form::text('senha', '', array('placeholder'=>'Senha*','class'=>'input-text required'))  }}
+						{{ Form::text('confirme_senha', '', array('placeholder'=>'Conformação de Senha*','class'=>'input-text required'))  }}
 					</div>
-					<select name = "paises" class = "select2">
-						@include('contents.paises')
-					</select>
-					{{ Form::select('plataforma', array('a'=>'A','b'=>'B')) }}
-					{{ Form::text('documento','', array('placeholder'=>'Documento','class'=>'input-text-doc')) }}
-					{{ Form::textarea('text','',array('class'=>'text-area-cont','placeholder'=>'Mensagem')) }}
+					{{ Form::select('pais', $paises , Input::old('pais',''));}}
+					{{ Form::select('plataforma', array('plataforma1'=>'Plataforma')) }}
+					{{ Form::text('documento','', array('placeholder'=>'Documento','class'=>'input-text-doc required')) }}
+					{{ Form::textarea('text','',array('class'=>'text-area-cont required','placeholder'=>'Mensagem')) }}
+					
 					<p style="float: left; margin-top: 10px;">*Campos Obrigatórios</p>
+
 					{{ Form::submit('Enviar', array('class'=>'bt-enviar')) }}
 				{{ Form::close() }}
 				<img src="../img/finderfly/Img-019.png" style="float: right; border:1px solid grey; border-radius:5px">
@@ -35,11 +35,4 @@
 		</div>
 	</div>
 </div>
-
-<script type="text/javascript">
-	function validateForm() {
-	return false;
-	}	
-
-</script>
 @stop

@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="css/price-style.css">
   <link rel="stylesheet" href="css/styles-fly.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/foot.css">
   
 
   <!-- Responsive CSS -->

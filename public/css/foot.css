@@ -1,0 +1,121 @@
+.container-foot{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	font-family: Arial;
+}
+
+#foot{
+	background-color: #f7f9f9;
+	border-top: 1px solid #FF7A00;
+	-webkit-box-shadow: inset 0 9px 24px -16px grey;
+	-moz-box-shadow: inset 0 9px 24px -16px grey;
+	-o-box-shadow: inset 0 9px 24px -16px grey;
+	box-shadow: inset 0 9px 24px -16px grey;
+}
+
+.linha_foot{
+	width: 1180px;
+	margin: 0 auto;
+	height: 265px;
+}
+
+.margin-top-foot{
+	margin-top: 20px;
+}
+
+.wrapper_foot{
+	width: 265px;
+}
+
+.cont-footer {
+	width: 1180px;
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.submenu {
+	display: inline-block;
+	vertical-align: top;
+	width: 220px;
+	margin-right: 22px;
+	height: 165px;
+	float: left;
+}
+
+.titulo_rodape {
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 8px;
+	display: block;
+	font-weight: 700;
+	background-image: url(http://img.pricefinder.com.br/image/linha-roda.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 21px;
+	height: 25px;
+	background-size: contain;
+}
+
+.submenu ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-bottom: 14px;
+	color: #797979;
+}
+
+.submenu ul li a {
+	font-size: 12px!important;
+	margin-left: -3px;
+	color: #797979;
+}
+
+.newlet {
+	width: 1180px;
+	min-height: 60px;
+	margin: 25px auto 0;
+	float: left;
+	color: #797979;
+	text-align: center;
+	padding-top: 13px;
+	border-top: 1px solid #D8D8D8;
+}
+
+.label-news span {
+	float: left;
+	margin-bottom: 5px;
+}
+
+#copyright {
+	width: 100%;
+	background-color: #505050;
+	margin: 0 auto;
+	padding: 14px 0;
+	height: 54px;
+}
+
+#copyright span{
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.tt-news {
+	float: left;
+	font-size: 24px;
+	color: #000;
+	margin-top: 2px;
+	margin-right: 25px;
+}
+
+.new-radio input {
+float: left;
+}
+
+.new-radio input[type="radio"],.new-radio input[type="checkbox"] {
+margin-right: 4px;
+margin-left: 4px;
+margin-top: 1px ;
+line-height: normal;
+}
