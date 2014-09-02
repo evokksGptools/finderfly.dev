@@ -4,9 +4,7 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
-		"laravel/framework": "4.2.*"
-	},
-	"require": {
+		"laravel/framework": "4.2.*",
 		"podio/podio-php": "dev-master"
 	},
 	"autoload": {
