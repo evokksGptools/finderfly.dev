@@ -16,7 +16,7 @@
 						</ul>
 					</div>
 					<div class="submenu">
-						<span class="titulo_rodape">Consumidor</span> 
+						<span class="titulo_rodape">Consumido</span> 
 						<ul>
 							<li><a href="http://pricefinder.com.br/compra-garantida" class="normal" target="_blank">Compra Garantida</a></li>
 							<li><a href="http://pricefinder.com.br/principais_lojas" class="normal" target="_blank">Principais Lojas</a></li>
