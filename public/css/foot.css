@@ -18,7 +18,7 @@
 .linha_foot{
 	width: 1180px;
 	margin: 0 auto;
-	height: 265px;
+	height: 284px;
 }
 
 .margin-top-foot{
@@ -33,6 +33,7 @@
 	width: 1180px;
 	margin: 0 auto;
 	display: inline-block;
+	height: 200px;
 }
 
 .submenu {
@@ -139,6 +140,7 @@
 	float: left;
 	margin-right: 25px;
 	width: 286px;
+	margin-top: -2px;
 }
 
 #form_news div.input-submit, #form_news div.input-tex {
