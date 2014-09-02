@@ -6,6 +6,9 @@
 	"require": {
 		"laravel/framework": "4.2.*"
 	},
+	"require": {
+		"podio/podio-php": "dev-master"
+	},
 	"autoload": {
 		"classmap": [
 			"app/commands",

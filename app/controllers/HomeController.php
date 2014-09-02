@@ -17,10 +17,33 @@ class HomeController extends BaseController {
 
 	public function index()
 	{
+
+		$app_id = '9230318';
+		$app_token = 'ce17b02d62de4c44b93591b08432f7c5';
+		$app_client_id = 'contato-cuupjl';
+		$app_client_token = 'V8bAuXoDMohks2cBU436hgGzvdz1bipcXPnx2x2ZrgJOC1ItMXlM6koqjfbiUVdV';
+  
+		Podio::setup($app_client_id, $app_client_token);
+  
+		$data = array(
+			'fields' => array(
+				"titulo" => Input::get("seu_email"),
+				"senha" => Input::get("senha"),
+				"pais" => Input::get("pais"),
+				"plataforma" => Input::get("plataforma"),
+				"documento" => Input::get("documento"),
+				"mensagem" => Input::get("text"),
+				"ip" => $_SERVER['REMOTE_ADDR']
+			)
+		);
+
+		Podio::authenticate('app', array('app_id' => $app_id, 'app_token' => $app_token));
+
+		PodioItem::create($app_id, $data);
+
 		return View::make('index',array('paises'=>$this->getPaises()));
 	}
-
-
+	
 	protected function getPaises(){
 		$paises = array(
 			''=>'Pa&iacute;s',
@@ -202,4 +225,9 @@ class HomeController extends BaseController {
 		return $paises;
 	}
 
+
+
+
 }
+
+

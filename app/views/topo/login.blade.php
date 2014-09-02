@@ -17,15 +17,12 @@
 	</div>
 	<div class = "cont-login-b">
 		<span class = "wid-login">Cadastre-se gr&aacute;tis</span>
-		<form action = "#" method = "post" class = "wid-cad" onsubmit="return validateForm()">
+		<form action = "/" method = "post" class = "wid-cad">
 			<div class = "div-login-spc">
-				<span id = "lg-img-name"></span><input type = "email" placeholder = "E-mail" name = "name" class = "required">
+				<span id = "lg-img-name"></span><input type = "text" placeholder = "Nome" name = "name" class = "required">
 			</div>
 			<div class = "div-login-spc">
 				<span id = "lg-img-email"></span><input type = "text" placeholder = "E-mail" name = "email" class = "required">
-			</div>
-			<div class = "div-login-spc">
-				<span id = "lg-img-senha"></span><input type = "text" placeholder = "Senha" name = "pass" style="margin-top: 1px;" class = "required">
 			</div>
 			<input type = "submit" id = "bt-cad-finder" value = "Crie sua Conta"><br>
 			

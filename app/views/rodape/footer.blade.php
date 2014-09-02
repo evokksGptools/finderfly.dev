@@ -16,18 +16,19 @@
 						</ul>
 					</div>
 					<div class="submenu">
-						<span class="titulo_rodape">Voc&ecirc;</span> 
+						<span class="titulo_rodape">Consumidor</span> 
 						<ul>
 							<li><a href="http://pricefinder.com.br/compra-garantida" class="normal" target="_blank">Compra Garantida</a></li>
 							<li><a href="http://pricefinder.com.br/principais_lojas" class="normal" target="_blank">Principais Lojas</a></li>
 							<li><a href="http://pricefinder.com.br/fale-conosco" class="normal" target="_blank">Fale Conosco</a></li>
-							<li><a href="http://pricefinder.com.br/atendimento-lojista" class="normal" target="_blank">Atendimento ao Lojista</a></li>
+							
 						</ul>
 					</div>
 					<div class="submenu">
-						<span class="titulo_rodape">Produtos | Empresas</span>
+						<span class="titulo_rodape">Produtos e Serviços</span>
 						<ul>
-							<li><a href="http://pricefinder.com.br/anuncie_gratis" class="normal" target="_blank">Anuncie Grátis</a></li>
+							<li><a href="http://pricefinder.com.br/anuncie_gratis" class="normal" target="_blank">Anuncio Grátis</a></li>
+							<li><a href="http://pricefinder.com.br/atendimento-lojista" class="normal" target="_blank">Atendimento ao Lojista</a></li>
 							<li><a href="http://pricefinder.com.br/banners" class="normal" target="_blank">Banners</a></li>
 							<li><a href="http://pricefinder.com.br/destaque_loja" class="normal" target="_blank">Destaque Loja</a></li>
 							<li><a href="http://pricefinder.com.br/#" class="normal" target="_blank">Links Patrocinados</a></li>
@@ -37,8 +38,8 @@
 					<div class="submenu">
 						<span class="titulo_rodape">Divulgue e Ganhe</span>
 						<ul style="border-right: none;">
-							<li><a href="#" class="normal" target="_blank">Finderstore - Produtos e Serviços</a></li>
-							<li><a href="http://www.finderpay.com.br" class="normal" target="_blank">Finderpay - Serviço Financeiro</a></li>
+							<li><a href="#" class="normal" target="_blank">Finderstore - Loja Virtual</a></li>
+							<li><a href="http://www.finderpay.com.br" class="normal" target="_blank">Finderpay - Meio de Pagamento</a></li>
 							<li><a href="/" class="normal" target="_blank">Finderfly - Programa de Afiliados</a></li>
 						</ul>
 					</div>

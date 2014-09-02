@@ -10,15 +10,15 @@
 			</div>
 			<p style = "margin-bottom: 0px;">
 				Cadastre-se no FinderFly e tenha acesso a diversos formatos em nossa plataforma e ganhe dinheiro com seu site, rede social, ou publicidade.<br><br></p>
-				{{ Form::open(array('url'=>'','name'=>'form-contato','class'=>'form1','onsubmit'=>'return validateForm()')) }}
+				{{ Form::open(array('url'=>URL::current(),'name'=>'form-contato','class'=>'form1','onsubmit'=>'return validateForm()')) }}
 					<div>
 						{{ Form::email('seu_email', '', array('placeholder'=>'Seu e-mail*','class'=>'input-text required email')) }}
 						{{ Form::email('confirme_email', '', array('placeholder'=>'Confirme seu e-mail*','class'=>'input-text required email'))  }}
 					</div>
 					
 					<div>
-						{{ Form::text('senha', '', array('placeholder'=>'Senha*','class'=>'input-text required'))  }}
-						{{ Form::text('confirme_senha', '', array('placeholder'=>'Conformação de Senha*','class'=>'input-text required'))  }}
+						{{ Form::password('senha', array('placeholder'=>'Senha*','class'=>'input-text required'))  }}
+						{{ Form::password('confirme_senha', array('placeholder'=>'Conformação de Senha*','class'=>'input-text required'))  }}
 					</div>
 					{{ Form::select('pais', $paises , Input::old('pais',''));}}
 					{{ Form::select('plataforma', array('plataforma1'=>'Plataforma')) }}

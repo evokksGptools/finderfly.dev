@@ -84,6 +84,7 @@
 .label-news span {
 	float: left;
 	margin-bottom: 5px;
+	font-size: 14px;
 }
 
 #copyright {
@@ -110,12 +111,83 @@
 }
 
 .new-radio input {
-float: left;
+	float: left;
 }
 
 .new-radio input[type="radio"],.new-radio input[type="checkbox"] {
-margin-right: 4px;
-margin-left: 4px;
-margin-top: 1px ;
-line-height: normal;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-top: 1px ;
+	line-height: normal;
+}
+
+.submenu ul {
+	height: 130px;
+}
+
+#form_news {
+	margin-bottom: 0 !important;
+}
+
+.newlet-cont {
+	width: 780px;
+	display: inline-block;
+}
+
+.label-news {
+	display: inline-block;
+	float: left;
+	margin-right: 25px;
+	width: 286px;
+}
+
+#form_news div.input-submit, #form_news div.input-tex {
+	float: left;
+	display: block;
+}
+
+#text_newlet {
+	background: none;
+	border: 1px #787878 solid;
+	width: 220px;
+	height: 30px;
+	border-radius: 5px;
+	text-indent: 15px;
+	font-size: 16px;
+	margin-right: 15px;
+}
+
+#input_newlet {
+	font-size: 16px;
+}
+
+.bt-envia-form {
+	background-image: url(http://img.pricefinder.com.br/image/bt-fale2.png);
+	width: 80px;
+	background-repeat: no-repeat;
+	border: none;
+	height: 30px;
+	border-radius: 5px;
+	color: #FFF;
+	float: right;
+}
+
+#copyright {
+	font-size: 11px;
+	text-align: center;
+}
+
+#copyright .col-sm-12 {
+	width: 1170px;
+	text-align: center;
+	margin: 0 auto;
+	float: none;
+	color: #FFF;
+}
+
+#copyright span {
+	font-weight: bold;
+	font-size: 12px;
+	display: inline-block;
+	margin-bottom: 5px;
 }

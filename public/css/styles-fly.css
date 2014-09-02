@@ -237,7 +237,7 @@ z-index: 3;}
 	float: left;display: block;
 }
 #bt-entrar span{
-	display: inline-block;margin-top: 12px;color: #FFF;margin-left: 10px;font-size: 16px;font-weight: normal;float: left;
+	display: inline-block;margin-top: 13px;color: #FFF;margin-left: 10px;font-size: 16px;font-weight: normal;float: left;
 }
 .panel-opened #bt-entrar span.icon{
 	background-position: 0px 0px;

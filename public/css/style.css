@@ -73,7 +73,7 @@ body {
   height: 100%;
 }
 body {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Arial', sans-serif;
   height: 100%;
   line-height: 1.6;
   -webkit-appearance: none;
@@ -5621,7 +5621,7 @@ blockquote small {
   margin-left: -20px;
 }
 .title-box .title {
-  color: #7f7f7f;
+  color: #505050;
   font-size: 25px;
   font-weight: normal;
   margin: 0 0 12px 0;

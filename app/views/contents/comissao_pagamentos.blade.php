@@ -7,7 +7,7 @@
 			</div>
 			<div class="row manufactures manufactures-list">
 				<div class="make-wrapper img-comissao">
-					<a href="#" class="make">
+					<a href="#">
 						<img src="img/finderfly/Img-005.png" width="575" height="150" alt="" class = "img-comissao">
 					</a>
 				</div>
