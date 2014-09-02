@@ -1,7 +1,7 @@
 @section('footer')
 
 <div class="container-foot">
-<div class="row" id="foot">
+<div id="foot">
 	<div class="linha_foot margin-top-foot">
 		<div class="wrapper_foot">
 			<div id="fb-root"></div>

@@ -829,7 +829,7 @@ textarea.form-control {
 }
 .selectBox {
   max-width: 100%;
-  width: 246px !important;
+  width: 100% !important;
 }
 .radio,
 .checkbox {

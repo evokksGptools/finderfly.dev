@@ -18,6 +18,12 @@ class HomeController extends BaseController {
 	public function index()
 	{
 
+		return View::make('index',array('paises'=>$this->getPaises()));
+	}
+
+	public function cadastro()
+	{
+
 		$app_id = '9230318';
 		$app_token = 'ce17b02d62de4c44b93591b08432f7c5';
 		$app_client_id = 'contato-cuupjl';
@@ -27,11 +33,11 @@ class HomeController extends BaseController {
   
 		$data = array(
 			'fields' => array(
-				"titulo" => Input::get("seu_email"),
-				"senha" => Input::get("senha"),
-				"pais" => Input::get("pais"),
-				"plataforma" => Input::get("plataforma"),
-				"documento" => Input::get("documento"),
+				"titulo" => Input::get("nome"),
+				"senha" => Input::get("sobrenome"),
+				"pais" => Input::get("email"),
+				"plataforma" => Input::get("telefone"),
+				"documento" => Input::get("motivo_contato"),
 				"mensagem" => Input::get("text"),
 				"ip" => $_SERVER['REMOTE_ADDR']
 			)
@@ -41,8 +47,10 @@ class HomeController extends BaseController {
 
 		PodioItem::create($app_id, $data);
 
-		return View::make('index',array('paises'=>$this->getPaises()));
+		return Redirect::to('/');
 	}
+
+
 	
 	protected function getPaises(){
 		$paises = array(

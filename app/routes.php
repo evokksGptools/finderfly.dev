@@ -11,4 +11,6 @@
 |
 */
 
-Route::any('/', 'HomeController@index');
+Route::get('/', 'HomeController@index');
+
+Route::post('/', 'HomeController@cadastro');
