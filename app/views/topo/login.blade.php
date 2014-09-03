@@ -19,16 +19,16 @@
 		<span class = "wid-login">Cadastre-se gr&aacute;tis</span>
 		<form action = "/" method = "post" class = "wid-cad" onsubmit="return validateFormCad()">
 			<div class = "div-login-spc">
-				<span id = "lg-img-name"></span><input type = "text" placeholder = "Nome" name = "name" class = "required">
+				<span id = "lg-img-name"></span><input type = "text" placeholder = "Nome" name = "nome_cad" class = "required">
 			</div>
 			<div class = "div-login-spc">
-				<span id = "lg-img-email"></span><input type = "text" placeholder = "E-mail" name = "email" class = "required">
+				<span id = "lg-img-email"></span><input type = "text" placeholder = "E-mail" name = "email_cad" class = "required">
 			</div>
 			<input type = "submit" id = "bt-cad-finder" value = "Crie sua Conta"><br>
 			
 			<div class="termos"> 
 				<p style = "font-size: 12px; line-height: 14px;">
-				Leia o <a href="#" id="termo_uso">Termo de uso</a> e a <br /><a href="#" id="politica_privacidade">Pol&iacute;tica de Privacidade</a>
+				Leia o <a href="http://www.pricefinder.com.br/termos-de-uso" id="termo_uso">Termo de uso</a> e a <br /><a href="http://www.pricefinder.com.br/politica-de-privacidade" id="politica_privacidade">Pol&iacute;tica de Privacidade</a>
 				Aceito receber email do PriceFinder
 				</p>
 			</div>

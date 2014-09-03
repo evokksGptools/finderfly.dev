@@ -50,6 +50,31 @@ class HomeController extends BaseController {
 		return Redirect::to('/');
 	}
 
+	public function cadastroLogin()
+	{
+
+		$app_id = '9230318';
+		$app_token = 'ce17b02d62de4c44b93591b08432f7c5';
+		$app_client_id = 'contato-cuupjl';
+		$app_client_token = 'V8bAuXoDMohks2cBU436hgGzvdz1bipcXPnx2x2ZrgJOC1ItMXlM6koqjfbiUVdV';
+  
+		Podio::setup($app_client_id, $app_client_token);
+  
+		$data = array(
+			'fields' => array(
+				"titulo" => Input::get("nome_cad"),
+				"email" => Input::get("email_cad"),
+				"ip" => $_SERVER['REMOTE_ADDR']
+			)
+		);
+
+		Podio::authenticate('app', array('app_id' => $app_id, 'app_token' => $app_token));
+
+		PodioItem::create($app_id, $data);
+
+		return Redirect::to('/');
+	}
+
 
 	
 	protected function getPaises(){

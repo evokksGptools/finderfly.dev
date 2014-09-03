@@ -13,4 +13,6 @@
 
 Route::get('/', 'HomeController@index');
 
-Route::post('/', 'HomeController@cadastro');
+Route::post('/envia_cadastro', 'HomeController@cadastro');
+
+Route::post('/envia_cadastro_lg', 'HomeController@cadastroLogin');
