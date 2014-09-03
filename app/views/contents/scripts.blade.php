@@ -63,7 +63,7 @@ $(document).ready(function(){
 	});
 
 jQuery(document).ready(function(){
- jQuery('.menu-prov li a, .link-banner').click(function(e){
+ jQuery('.item-primary a, .link-banner').click(function(e){
   e.preventDefault();
  
   var element = '#'+jQuery(this).data('scroll');

@@ -2228,3 +2228,49 @@ $('input').keydown(function(){
 	$(this).removeClass('error');
 });
 
+$(document).ready(function(){
+		$('.img-mon').mouseover(function(){
+			$('.cont-cps').removeClass('active');
+			$('.img-mon').removeClass('active');
+			var id = $(this).attr("id");
+			var id = "."+id;
+			$(this).addClass('active');
+			$(id).addClass('active');
+		});
+	});
+
+$(document).ready(function(){
+		jQuery('.formats').click(function(){
+			jQuery('.formats').removeClass('active');
+			jQuery(this).addClass('active');
+			var img = jQuery(this).data('img');
+			jQuery('.formato-b img').removeClass('active');
+			jQuery('.formato-b img.'+img).addClass('active');
+		});
+	});
+
+jQuery('header .nav a').click(function(e){
+  e.preventDefault();
+  jQuery('header .nav a').removeClass('active');
+  jQuery(this).addClass('active');
+  
+ 
+  var element = '#'+jQuery(this).data('scroll');
+  var scroll = jQuery(element).offset().top;
+  jQuery('body,html').animate({scrollTop: scroll - 60 },'slow');
+ 
+  return false;
+ });
+
+jQuery(window).load(function(){
+					(function(d, s, id) {
+						var js, fjs = d.getElementsByTagName(s)[0];
+						if (d.getElementById(id)) return;
+						js = d.createElement(s); js.id = id;
+						js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=324603094294664&version=v2.0";
+						fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));
+
+				});
+
+

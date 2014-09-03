@@ -3253,6 +3253,7 @@ blockquote small {
 .header .primary .navbar .nav > li {
   position: relative;
   border-right: 1px solid #fff;
+  height: 60px;
 }
 .header .primary .navbar .nav > li:last-child {
   border-right: none;
@@ -3266,7 +3267,7 @@ blockquote small {
   -moz-border-radius: 3px;
   border-radius: 3px;
   color: #FFF;
-  padding: 11px 13px;
+  padding: 19px 13px;
   position: static;
   text-shadow: none;
   -webkit-transition: all 0.2s linear;
@@ -3605,7 +3606,7 @@ blockquote small {
 .header .primary .navbar .nav > li.item-primary:hover > a,
 .header .primary .item-primary .sub,
 .header .primary .item-primary.megamenu > .sub .promo-block {
-  border-color: #428bca;
+  border-color: #8c3c50;
 }
 .header .primary .navbar .nav > li.item-success:hover > a,
 .header .primary .item-success .sub,
@@ -3635,7 +3636,7 @@ blockquote small {
 .header .primary .item-primary.item-bg .sub,
 .header .primary .item-primary.item-bg.parent .sub,
 .header .primary .item-primary.item-bg.parent:hover > .sub {
-  background: #428bca;
+  background: #8c3c50;
 }
 .header .primary .navbar .nav > li.item-success.item-bg:hover > a,
 .header .primary .item-success.item-bg .sub,
@@ -11056,4 +11057,18 @@ margin-right: 15px;
 
 .title-box h3{
   font-size: 20px !important;
+}
+
+.header .primary .navbar .nav > li.item-primary.item-bg > a.active,
+.header .primary .navbar .nav > li.item-primary.item-bg:hover > a,
+.header .primary .item-primary.item-bg .sub,
+.header .primary .item-primary.item-bg.parent .sub,
+.header .primary .item-primary.item-bg.parent:hover > .sub {
+  background: #8c3c50;
+  border-color: #8c3c50;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  padding: 19px 13px;
 }
