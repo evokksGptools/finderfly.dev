@@ -237,7 +237,7 @@ z-index: 3;}
 	float: left;display: block;
 }
 #bt-entrar span{
-	display: inline-block;margin-top: 15px;color: #FFF;margin-left: 10px;font-size: 16px;font-weight: normal;float: left;
+	display: inline-block;margin-top: 12px;color: #FFF;margin-left: 10px;font-size: 16px;font-weight: normal;float: left;
 }
 .panel-opened #bt-entrar span.icon{
 	background-position: 0px 0px;
@@ -483,9 +483,9 @@ div[data-id="d"] select{
           z-index: 3;
         }
 
-        .menu-prov {
+        .nav {
         float: right;
-        margin-right: 60px;
+        margin-right: 60px !important;
         }
     }
 
@@ -499,9 +499,9 @@ div[data-id="d"] select{
           z-index: 3;
         }
 
-        .menu-prov {
+        .nav {
         float: right;
-        margin-right: 0px;
+        margin-right: 0px !important;
         }
     }
 
