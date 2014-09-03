@@ -2197,12 +2197,10 @@ $('#bt-entrar, .bt-divulgue').click(function(){
 		});
 	});
 
-//Validação de formulário
-function validateForm() {
-
-	var b = $('.form1');
+//Validação de formulário login
+function validateFormLogin() {
+	var b = $('.wid-login');
 	var novo = new Array();
-
 	jQuery('.required').each(function(){
 		var element = b.find('textarea,input[name='+jQuery(this).attr('name')+']');
 		console.log(element);
@@ -2216,7 +2214,54 @@ function validateForm() {
 			}		
 		}
 	});
+	if(novo.length > 0){
+		return false;
+	}else{
+		return true;
+	}
+}
 
+//Validação de formulário cadastro
+function validateFormCad() {
+	var b = $('.wid-cad');
+	var novo = new Array();
+	jQuery('.required').each(function(){
+		var element = b.find('textarea,input[name='+jQuery(this).attr('name')+']');
+		console.log(element);
+		if(element.length){
+			if(element.val() == ""){
+				novo.push(element);	
+				jQuery(this).addClass('error');
+			}
+			else{
+				jQuery(this).removeClass('error');
+			}		
+		}
+	});
+	if(novo.length > 0){
+		return false;
+	}else{
+		return true;
+	}
+}
+
+//Validação de formulário contato
+function validateFormContato() {
+	var b = $('.contato-form');
+	var novo = new Array();
+	jQuery('.requirede').each(function(){
+		var element = b.find('textarea,input[name='+jQuery(this).attr('name')+']');
+		console.log(element);
+		if(element.length){
+			if(element.val() == ""){
+				novo.push(element);	
+				jQuery(this).addClass('error');
+			}
+			else{
+				jQuery(this).removeClass('error');
+			}		
+		}
+	});
 	if(novo.length > 0){
 		return false;
 	}else{

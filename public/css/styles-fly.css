@@ -237,7 +237,7 @@ z-index: 3;}
 	float: left;display: block;
 }
 #bt-entrar span{
-	display: inline-block;margin-top: 13px;color: #FFF;margin-left: 10px;font-size: 16px;font-weight: normal;float: left;
+	display: inline-block;margin-top: 15px;color: #FFF;margin-left: 10px;font-size: 16px;font-weight: normal;float: left;
 }
 .panel-opened #bt-entrar span.icon{
 	background-position: 0px 0px;
@@ -477,7 +477,7 @@ div[data-id="d"] select{
         #bt-entrar {
           position: relative; !important;
           right: -94px !important;
-          top: 6px !important;
+          top: 4px !important;
           cursor: pointer !important;
           margin-right: 30px !important;
           z-index: 3;
@@ -493,7 +493,7 @@ div[data-id="d"] select{
         #bt-entrar {
           position: absolute; !important;
           right: -350px !important;
-          top: 6px !important;
+          top: 4px !important;
           cursor: pointer !important;
           margin-right: 30px !important;
           z-index: 3;
@@ -504,3 +504,8 @@ div[data-id="d"] select{
         margin-right: 0px;
         }
     }
+
+.selectBox-dropdown-menu li:first-child{
+	display: none;
+	color: #A9A9A9;
+}

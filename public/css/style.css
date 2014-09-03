@@ -797,7 +797,7 @@ label {
   line-height: 13px;
   margin-bottom: 20px;
   min-height: 35px;
-  padding: 8px 12px;
+  padding: 12px 12px;
   /*-webkit-appearance: none;*/
   width: 100%;
   margin-right: 20px;
@@ -10793,7 +10793,7 @@ a.big-icon:hover {
   background: none !important;
 }
 
-.form1{
+.contato-form{
   width: 820px;
   height: 510px;
   border: 1px solid #505050;
@@ -10841,7 +10841,7 @@ div .input-text:last-child{
   float: right;
 }
 
-.form1 div{
+.contato-form div{
   margin-bottom: 20px;
 }
 
