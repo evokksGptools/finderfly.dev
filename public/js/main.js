@@ -2302,10 +2302,29 @@ jQuery('header .nav a').click(function(e){
  
   var element = '#'+jQuery(this).data('scroll');
   var scroll = jQuery(element).offset().top;
+  console.log(scroll);
   jQuery('body,html').animate({scrollTop: scroll - 60 },'slow');
  
   return false;
  });
+
+$(window).scroll(function(){
+	var top = window.pageYOffset;
+	jQuery('header .nav a').removeClass('active');
+	if(top >= 600 && top <= 1150){
+		console.log("publishers");
+		jQuery('a[data-scroll="publishers"]').addClass('active');
+	}else if(top >= 2390 && top <= 3000){
+		jQuery('a[data-scroll="anunciantes"]').addClass('active');
+	}else if(top >= 3000 && top <= 3700){
+		jQuery('a[data-scroll="formatos"]').addClass('active');
+	}else if(top >= 4050 && top <= 4878){
+		jQuery('a[data-scroll="contato"]').addClass('active');
+	}
+	console.log(top);
+});
+
+
 
 jQuery(window).load(function(){
 					(function(d, s, id) {
