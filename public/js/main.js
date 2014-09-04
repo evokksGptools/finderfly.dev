@@ -2337,6 +2337,7 @@ jQuery(window).load(function(){
 
 });
 
+//Botao do Header responsivo
 $(document).ready(function(){
 	var hwidth = window.innerWidth;
 
