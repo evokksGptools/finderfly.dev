@@ -30,7 +30,7 @@
 							<li><a href="http://pricefinder.com.br/anuncie_gratis" class="normal" target="_blank">Anuncio Grátis</a></li>
 							<li><a href="http://pricefinder.com.br/banners" class="normal" target="_blank">Banners</a></li>
 							<li><a href="http://pricefinder.com.br/destaque_loja" class="normal" target="_blank">Destaque Loja</a></li>
-							<li><a href="http://pricefinder.com.br/#" class="normal" target="_blank">Busca Patrocinada</a></li>
+							<li><a href="http://pricefinder.com.br/busca_patrocinada" class="normal" target="_blank">Busca Patrocinada</a></li>
 							<li><a href="http://pricefinder.com.br/email-marketing" class="normal" target="_blank">E-mail Marketing</a></li>
 							<li><a href="http://pricefinder.com.br/atendimento-lojista" class="normal" target="_blank"><strong>Atendimento ao Lojista</strong></a></li>
 						</ul>
