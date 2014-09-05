@@ -47,7 +47,7 @@ class HomeController extends BaseController {
 
 		PodioItem::create($app_id, $data);
 
-		return Redirect::to('/');
+		return "Formulário enviado com sucesso!";
 	}
 
 	public function cadastroLogin()

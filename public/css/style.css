@@ -10806,6 +10806,8 @@ a.big-icon:hover {
   -o-box-shadow: 0 1px #fff, inset 0 1px 4px rgba(0,0,0,.15);
   -moz-box-shadow: 0 1px #fff, inset 0 1px 4px rgba(0,0,0,.15);
   padding-left: 10px;
+  font-size: 14px;
+  padding-top: 0px;
 }
 
 .input-text:hover{
@@ -10847,6 +10849,8 @@ div .input-text:last-child{
   -webkit-box-shadow: 0 1px #fff, inset 0 1px 4px rgba(0,0,0,.15);
   padding-left: 10px;
   padding-top: 10px;
+  font-size: 14px;
+  padding-top: 8px;
 }
 
 .text-area-cont:hover{
@@ -11079,5 +11083,65 @@ width: 126px;
 
 .bt-lg-nav{
   position: relative !important;
+}
 
+#resposta_ajax{
+  display:none;
+  position: absolute;
+  width: 820px;
+  height: 510px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px;
+}
+
+#content-resposta-ajax{
+  text-align: center;
+  display: block;
+  margin-top: 200px;
+  font-size: 30px;
+}
+
+.d_back_box{
+  display: block !important;
+}
+
+.input-text::-webkit-input-placeholder {
+   color: #ACACAC;
+   font: 14px "Arimo", arial, sans-serif;
+   padding-top: 0px
+}
+
+.input-text:-moz-placeholder {
+   color: #ACACAC;
+   font: 14px "Arimo", arial, sans-serif;
+}
+
+.input-text::-moz-placeholder {
+   color: #ACACAC;  
+   font: 14px "Arimo", arial, sans-serif;
+}
+
+.input-text:-ms-input-placeholder {  
+   color: #ACACAC;  
+   font: 14px "Arimo", arial, sans-serif;
+}
+
+.text-area-cont::-webkit-input-placeholder {
+   color: #ACACAC;
+   font: 15px "Arimo", arial, sans-serif;
+}
+
+.text-area-cont:-moz-placeholder {
+   color: #ACACAC;
+   font: 15px "Arimo", arial, sans-serif;
+}
+
+.text-area-cont::-moz-placeholder {
+   color: #ACACAC;  
+   font: 15px "Arimo", arial, sans-serif;
+}
+
+.text-area-cont:-ms-input-placeholder {  
+   color: #ACACAC;  
+   font: 15px "Arimo", arial, sans-serif;
 }

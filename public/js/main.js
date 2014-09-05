@@ -2269,7 +2269,7 @@ function validateFormContato() {
 	}
 }
 
-$('input').keydown(function(){
+$('input, textarea').change(function(){
 	$(this).removeClass('error');
 });
 
@@ -2376,4 +2376,67 @@ $(document).ready(function(){
 		}
 	};
 });
+
+//ENVIANDO FORMULÀRIO DE CONTATO VIA AJAX :-) //
+var envia;
+var campos;
+
+function objetoXML(){
+	if(window.XMLHttpRequest){
+		envia = new XMLHttpRequest();
+	}else{
+		envia = new ActiveXObject("Microsoft.XMLHTTP");
+	}
+}	
+
+function setarCampos(){
+	var nome = document.forms["form-contato"]["nome"].value;
+	var sobrenome = document.forms["form-contato"]["sobrenome"].value;
+	var email = document.forms["form-contato"]["email"].value;
+	var telefone = document.forms["form-contato"]["telefone"].value;
+	var motivo_contato = document.forms["form-contato"]["motivo_contato"].value;
+	var text = document.forms["form-contato"]["text"].value;
+
+	var campos = "nome="+nome+"&sobrenome="+sobrenome+"&email="+email+"&telefone="+telefone+"&motivo_contato="+motivo_contato+"&text="+text;
+}
+
+function limpaCampos(){
+	var form = document.forms["form-contato"];
+	for(var i = 0; i <= form.length; i++){
+		form[i].value="";
+	}
+}
+
+function enviaCadastro(url, campos, destino){
+
+	var validate = validateFormContato();
+
+	if(validate){
+		var elemento = document.getElementById(destino);
+		objetoXML();
+
+		if (!envia){
+			elemento.innerHTML = "Impossivel iniciar o objeto!";
+		}
+		else{
+			elemento.setAttribute("class","d_back_box");
+		}
+
+		envia.onreadystatechange = function(){
+			if(envia.readyState == 4 || envia.readyState ==0){
+				if(envia.status ==200){
+					document.getElementById("content-resposta-ajax").innerHTML = envia.responseText;
+					setInterval(function(){elemento.removeAttribute("class","d_back_box")}, 2000);
+					limpaCampos();
+				}
+				else{
+					elemento.innerHTML = "Página não encontrada";
+				}
+			}
+		}
+		envia.open("POST",url,true);
+		envia.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		envia.send(campos);
+	}
+}
 
