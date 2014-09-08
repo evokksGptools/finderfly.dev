@@ -5,7 +5,7 @@
 			<div class="title-box">
 				<h2 class="title">Formatos</h2>
 			</div>
-			<p class="bottom-padding">Publishers e anunciantes que utilizam a Plataforma Lomadee contam com um leque variado de opções para a veiculação de campanhas publicitárias. Conheça abaixo os formatos que o programa oferece:</p><br>
+			<p class="bottom-padding">Publishers e anunciantes que utilizam a Plataforma Finderfly contam com um leque variado de opções para a veiculação de campanhas publicitárias. Conheça abaixo os formatos que o programa oferece:</p><br>
 		</div>
 		<div class="col-sm-6 col-md-6">
 			<div class="panel-group one-open" id="accordion">
