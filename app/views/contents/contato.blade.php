@@ -7,7 +7,7 @@
 			</div>
 			<p style = "margin-bottom: 0px;">
 				Cadastre-se no FinderFly e tenha acesso a diversos formatos em nossa plataforma e ganhe dinheiro com seu site, rede social, ou publicidade.<br><br></p>
-				{{ Form::open(array('url'=>'/envia_cadastro','name'=>'form-contato','class'=>'contato-form','onsubmit'=>'setarCampos(); enviaCadastro("/envia_cadastro", campos, "resposta_ajax"); return false;')) }}
+				{{ Form::open(array('url'=>'/envia_cadastro','name'=>'form-contato','class'=>'contato-form','onsubmit'=>'setarCamposContato(); enviaContato("/envia_cadastro", camposContato, "resposta_ajax"); return false;')) }}
 					<div>
 						{{ Form::text('nome', '', array('placeholder'=>'Nome*','class'=>'input-text requirede')) }}
 						{{ Form::text('sobrenome', '', array('placeholder'=>'Sobrenome*','class'=>'input-text requirede'))  }}

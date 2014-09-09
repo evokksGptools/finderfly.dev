@@ -2379,7 +2379,8 @@ $(document).ready(function(){
 
 //ENVIANDO FORMULÀRIO DE CONTATO VIA AJAX :-) //
 var envia;
-var campos;
+var camposContato;
+var camposCadastro;
 
 function objetoXML(){
 	if(window.XMLHttpRequest){
@@ -2389,7 +2390,14 @@ function objetoXML(){
 	}
 }	
 
-function setarCampos(){
+function setarCamposContato(){
+	var nome = document.forms["form-cad"]["nome_cad"].value;
+	var email = document.forms["form-cad"]["email_cad"].value;
+
+	var camposCadastro = "nome="+nome+"&email="+email;
+}
+
+function setarCamposCadastro(){
 	var nome = document.forms["form-contato"]["nome"].value;
 	var sobrenome = document.forms["form-contato"]["sobrenome"].value;
 	var email = document.forms["form-contato"]["email"].value;
@@ -2397,17 +2405,24 @@ function setarCampos(){
 	var motivo_contato = document.forms["form-contato"]["motivo_contato"].value;
 	var text = document.forms["form-contato"]["text"].value;
 
-	var campos = "nome="+nome+"&sobrenome="+sobrenome+"&email="+email+"&telefone="+telefone+"&motivo_contato="+motivo_contato+"&text="+text;
+	var camposContato = "nome="+nome+"&sobrenome="+sobrenome+"&email="+email+"&telefone="+telefone+"&motivo_contato="+motivo_contato+"&text="+text;
 }
 
-function limpaCampos(){
+function limpaCamposContato(){
 	var form = document.forms["form-contato"];
 	for(var i = 0; i <= form.length; i++){
 		form[i].value="";
 	}
 }
 
-function enviaCadastro(url, campos, destino){
+function limpaCamposCadastro(){
+	var form = document.forms["form-cad"];
+	for(var i = 0; i <= form.length; i++){
+		form[i].value="";
+	}
+}
+
+function enviaContato(url, camposContato, destino){
 
 	var validate = validateFormContato();
 
@@ -2427,7 +2442,7 @@ function enviaCadastro(url, campos, destino){
 				if(envia.status ==200){
 					document.getElementById("content-resposta-ajax").innerHTML = envia.responseText;
 					setInterval(function(){elemento.removeAttribute("class","d_back_box")}, 2000);
-					limpaCampos();
+					limpaCamposContato();
 				}
 				else{
 					elemento.innerHTML = "Página não encontrada";
@@ -2436,7 +2451,40 @@ function enviaCadastro(url, campos, destino){
 		}
 		envia.open("POST",url,true);
 		envia.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-		envia.send(campos);
+		envia.send(camposContato);
+	}
+}
+
+function enviaCadastro(url, camposCadastro, destino){
+
+	var validate = validateFormCad();
+
+	if(validate){
+		var elemento = document.getElementById(destino);
+		objetoXML();
+
+		if (!envia){
+			elemento.innerHTML = "Impossivel iniciar o objeto!";
+		}
+		else{
+			elemento.setAttribute("class","d_back_box");
+		}
+
+		envia.onreadystatechange = function(){
+			if(envia.readyState == 4 || envia.readyState ==0){
+				if(envia.status ==200){
+					document.getElementById("content-resposta-ajax").innerHTML = envia.responseText;
+					setInterval(function(){elemento.removeAttribute("class","d_back_box")}, 2000);
+					limpaCamposCadastro();
+				}
+				else{
+					elemento.innerHTML = "Página não encontrada";
+				}
+			}
+		}
+		envia.open("POST",url,true);
+		envia.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		envia.send(camposContato);
 	}
 }
 

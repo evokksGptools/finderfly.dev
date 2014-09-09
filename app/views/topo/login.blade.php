@@ -17,7 +17,7 @@
 	</div>
 	<div class = "cont-login-b">
 		<span class = "wid-login">Cadastre-se gr&aacute;tis</span>
-		<form action = "/envia_cadastro_lg" method = "post" class = "wid-cad" onsubmit="return validateFormCad()">
+		<form action = "/envia_cadastro_lg" method = "post" class = "wid-cad" onsubmit="setarCamposCadastro(); enviaCadastro('/envia_cadastro_lg', camposCadastro, 'resposta_ajax_cad'); return false;" name = "form-cad">
 			<div class = "div-login-spc">
 				<span id = "lg-img-name"></span><input type = "text" placeholder = "Nome" name = "nome_cad" class = "required">
 			</div>
@@ -25,7 +25,7 @@
 				<span id = "lg-img-email"></span><input type = "text" placeholder = "E-mail" name = "email_cad" class = "required">
 			</div>
 			<input type = "submit" id = "bt-cad-finder" value = "Crie sua Conta"><br>
-			
+			<div id = "resposta_ajax_cad"></div>
 			<div class="termos"> 
 				<p style = "font-size: 12px; line-height: 14px;">
 				Leia o <a href="http://www.pricefinder.com.br/termos-de-uso" id="termo_uso">Termo de uso</a> e a <br /><a href="http://www.pricefinder.com.br/politica-de-privacidade" id="politica_privacidade">Pol&iacute;tica de Privacidade</a>
