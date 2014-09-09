@@ -158,13 +158,15 @@
 }
 
 .wid-login{
-	width: 270px;
 	margin-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
 }
 
 .wid-cad{
-	width: 270px;
 	margin-bottom: 5px;
+	padding-left: 6px;
+	padding-right: 6px;
 }
 
 .wid-login img{
@@ -176,7 +178,7 @@
 }
 
 .wid-login input{
-	width: 205px;
+	width: 204px;
 	height: 35px;
 	padding-left: 10px;
 	border: 1px solid #929497;
@@ -184,16 +186,16 @@
 }
 
 .wid-cad input{
-	width: 205px;height: 35px;padding-left: 10px;border: 1px solid #929497;border-radius: 0px 5px 5px 0px;
+	width: 204px;height: 35px;padding-left: 10px;border: 1px solid #929497;border-radius: 0px 5px 5px 0px;
 }
 #box-login span{
 	display: block;
 }
 #bt-entrar-finder{
-	width: 242px;height: 42px;border: none;background-color: #F1F1F1;margin-left: 6px;margin-top: 5px;cursor: pointer;
+	width: 242px;height: 42px;border: none;background-color: #F1F1F1;margin-top: 5px;cursor: pointer;
 }
 #bt-cad-finder{
-	width: 242px;height: 42px;border: none;background-color: #F1F1F1;margin-left: 6px;margin-top: 5px;	cursor: pointer;
+	width: 242px;height: 42px;border: none;background-color: #F1F1F1;margin-top: 5px;	cursor: pointer;
 }
 #bt-cad-finder,#bt-entrar-finder{
 	background-image: url('../img/finderfly/login-1.png');	
