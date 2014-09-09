@@ -53,8 +53,8 @@ class HomeController extends BaseController {
 	public function cadastroLogin()
 	{
 
-		$app_id = '9230318';
-		$app_token = 'ce17b02d62de4c44b93591b08432f7c5';
+		$app_id = '9230255';
+		$app_token = '0269a206aa824cb0897163d6771b01ac';
 		$app_client_id = 'contato-cuupjl';
 		$app_client_token = 'V8bAuXoDMohks2cBU436hgGzvdz1bipcXPnx2x2ZrgJOC1ItMXlM6koqjfbiUVdV';
   
