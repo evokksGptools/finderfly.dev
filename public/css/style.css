@@ -11094,10 +11094,29 @@ width: 126px;
   border-radius: 5px;
 }
 
+#resposta_ajax_cad{
+  display:none;
+  position: absolute;
+  top: 40px;
+  left: 16px;
+  border: 1px solid #e1e1e1;
+  height: 127PX;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.75);
+  width: 242px;
+}
+
 #content-resposta-ajax{
   text-align: center;
   display: block;
   margin-top: 200px;
+  font-size: 30px;
+}
+
+#content-resposta-ajax-lg{
+  text-align: center;
+  display: block;
+  margin-top: 30px;
   font-size: 30px;
 }
 

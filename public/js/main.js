@@ -2417,7 +2417,7 @@ function limpaCamposContato(){
 
 function limpaCamposCadastro(){
 	var form = document.forms["form-cad"];
-	for(var i = 0; i <= form.length; i++){
+	for(var i = 0; i < form.length - 1; i++){
 		form[i].value="";
 	}
 }
@@ -2473,7 +2473,7 @@ function enviaCadastro(url, camposCadastro, destino){
 		envia.onreadystatechange = function(){
 			if(envia.readyState == 4 || envia.readyState ==0){
 				if(envia.status ==200){
-					document.getElementById("content-resposta-ajax").innerHTML = envia.responseText;
+					document.getElementById("resposta_ajax_cad").innerHTML = envia.responseText;
 					setInterval(function(){elemento.removeAttribute("class","d_back_box")}, 2000);
 					limpaCamposCadastro();
 				}

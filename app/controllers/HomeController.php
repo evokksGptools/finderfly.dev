@@ -24,8 +24,8 @@ class HomeController extends BaseController {
 	public function cadastro()
 	{
 
-		$app_id = '9230318';
-		$app_token = 'ce17b02d62de4c44b93591b08432f7c5';
+		$app_id = '9318407';
+		$app_token = '1196db54354d4b7a887d2615455293f0';
 		$app_client_id = 'contato-cuupjl';
 		$app_client_token = 'V8bAuXoDMohks2cBU436hgGzvdz1bipcXPnx2x2ZrgJOC1ItMXlM6koqjfbiUVdV';
   
@@ -34,10 +34,10 @@ class HomeController extends BaseController {
 		$data = array(
 			'fields' => array(
 				"titulo" => Input::get("nome"),
-				"senha" => Input::get("sobrenome"),
-				"pais" => Input::get("email"),
-				"plataforma" => Input::get("telefone"),
-				"documento" => "finderfly - ".Input::get("motivo_contato"),
+				"sobrenome" => Input::get("sobrenome"),
+				"email" => Input::get("email"),
+				"telefone" => Input::get("telefone"),
+				"motivocontato" => "finderfly - ".Input::get("motivo_contato"),
 				"mensagem" => Input::get("text"),
 				"ip" => $_SERVER['REMOTE_ADDR']
 			)
@@ -53,8 +53,8 @@ class HomeController extends BaseController {
 	public function cadastroLogin()
 	{
 
-		$app_id = '9230255';
-		$app_token = '0269a206aa824cb0897163d6771b01ac';
+		$app_id = '9318499';
+		$app_token = 'adca1675804a4ecea30a17f7fed09004';
 		$app_client_id = 'contato-cuupjl';
 		$app_client_token = 'V8bAuXoDMohks2cBU436hgGzvdz1bipcXPnx2x2ZrgJOC1ItMXlM6koqjfbiUVdV';
   
@@ -72,7 +72,7 @@ class HomeController extends BaseController {
 
 		PodioItem::create($app_id, $data);
 
-		return Redirect::to('/');
+		return "Formulário enviado com sucesso!";
 	}
 
 }

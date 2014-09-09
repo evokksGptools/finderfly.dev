@@ -25,7 +25,6 @@
 				<span id = "lg-img-email"></span><input type = "text" placeholder = "E-mail" name = "email_cad" class = "required">
 			</div>
 			<input type = "submit" id = "bt-cad-finder" value = "Crie sua Conta"><br>
-			<div id = "resposta_ajax_cad"></div>
 			<div class="termos"> 
 				<p style = "font-size: 12px; line-height: 14px;">
 				Leia o <a href="http://www.pricefinder.com.br/termos-de-uso" id="termo_uso">Termo de uso</a> e a <br /><a href="http://www.pricefinder.com.br/politica-de-privacidade" id="politica_privacidade">Pol&iacute;tica de Privacidade</a>
@@ -33,5 +32,10 @@
 				</p>
 			</div>
 		</form>
+		<div id = "resposta_ajax_cad" class = "resposta_ajax">
+			<div id = "content-resposta-ajax-lg">
+				<img src="http://www.mytreedb.com/uploads/mytreedb/loader/ajax_loader_gray_350.gif" alt="High quality AJAX loader gray progress - Size 350x350" width="64" height="64">
+			</div>
+		</div>
 	</div>
 </div>	
