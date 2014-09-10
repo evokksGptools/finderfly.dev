@@ -2410,7 +2410,7 @@ function setarCamposCadastro(){
 
 function limpaCamposContato(){
 	var form = document.forms["form-contato"];
-	for(var i = 0; i <= form.length; i++){
+	for(var i = 0; i < form.length - 1; i++){
 		form[i].value="";
 	}
 }
