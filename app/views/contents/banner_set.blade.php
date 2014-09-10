@@ -4,7 +4,7 @@
 		<div class="banners">
 			<a href="#" class="banner link-banner" data-scroll = "sobre">
 				<img src="img/finderfly/Img-001.png" width="253" height="158" alt="">
-				<h2 class="title">O que é Finderfly?</h2>
+				<h2 class="title">O que é FinderFly?</h2>
 				<div class="description">A mais completa plataforma para divulgar publicidade através de diferentes mídias sociais. E tudo isso de forma rápida fácil e lucrativa. <span>Veja mais</span></div>
 			</a>
 			<a href="#" class="banner" style = "cursor: text">

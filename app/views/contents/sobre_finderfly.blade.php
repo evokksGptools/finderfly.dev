@@ -5,7 +5,7 @@
 
 		<div class="col-sm-12 col-md-12">
 			<div class="title-box">
-				<h2 class="title">Sobre o Finderfly</h2>
+				<h2 class="title">Sobre o FinderFly</h2>
 			</div>
 			<p>
 				O FinderFly oferece a mais completa plataforma para divulgação de publicidade na internet através das diferentes mídias sociais. Utilizando nossa plataforma juntamente com sua popularidade na internet é possível obter ganhos de forma fácil, rápida e prática, assim, o principal objetivo de nossa ferramenta é buscar as melhores oportunidades de negócios para os afiliados do programa.</p>

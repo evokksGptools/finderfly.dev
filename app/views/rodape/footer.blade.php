@@ -7,7 +7,7 @@
 			<div id="fb-root"></div>
 				<div class = "cont-footer">
 					<div class="submenu">
-						<span class="titulo_rodape">Pricefinder</span>
+						<span class="titulo_rodape">PriceFinder</span>
 						<ul>
 							<li><a href="http://pricefinder.com.br/quem-somos" class="normal" target="_blank">Quem Somos</a></li>
 							<li><a href="http://pricefinder.com.br/termos-de-uso" class="normal" target="_blank">Termos de Uso</a></li>
@@ -38,9 +38,9 @@
 					<div class="submenu">
 						<span class="titulo_rodape">Produtos e Serviços</span>
 						<ul style="border-right: none;">
-							<li><a href="http://www.finderstore.com.br" class="normal" target="_blank">Finderstore - Loja Virtual</a></li>
-							<li><a href="http://www.finderpay.com.br" class="normal" target="_blank">Finderpay - Meio de Pagamento</a></li>
-							<li><a href="http://www.finderfly.com.br" class="normal" target="_blank">Finderfly - Programa de Afiliados</a></li>
+							<li><a href="http://www.finderstore.com.br" class="normal" target="_blank">FinderStore - Loja Virtual</a></li>
+							<li><a href="http://www.finderpay.com.br" class="normal" target="_blank">FinderPay - Meio de Pagamento</a></li>
+							<li><a href="http://www.finderfly.com.br" class="normal" target="_blank">FinderFly - Programa de Afiliados</a></li>
 						</ul>
 					</div>
 

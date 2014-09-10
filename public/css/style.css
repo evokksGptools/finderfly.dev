@@ -11164,3 +11164,32 @@ width: 126px;
    color: #ACACAC;  
    font: 15px "Arimo", arial, sans-serif;
 }
+
+.text-banner-002{
+  color: #787878;
+text-align: right;
+font-size: 20px;
+font-weight: 100;
+line-height: 30px;
+}
+
+.text-banner-002 span{
+  color: #f15a29;
+font-size: 30px;
+}
+
+.text-banner-001{
+  color: #787878;
+font-size: 20px;
+line-height: 30px;
+}
+
+.text-banner-001 span{
+  color: #32968c;
+font-size: 25px;
+}
+
+.text-banner-001 span:last-child{
+  color: #ed1c24;
+font-size: 25px;
+}
