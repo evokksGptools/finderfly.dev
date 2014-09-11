@@ -2378,35 +2378,6 @@ $(document).ready(function(){
 });
 
 //ENVIANDO FORMULÀRIO DE CONTATO VIA AJAX :-) //
-var envia;
-var camposContato;
-var camposCadastro;
-
-function objetoXML(){
-	if(window.XMLHttpRequest){
-		envia = new XMLHttpRequest();
-	}else{
-		envia = new ActiveXObject("Microsoft.XMLHTTP");
-	}
-}	
-
-function setarCamposContato(){
-	var nome = document.forms["form-cad"]["nome_cad"].value;
-	var email = document.forms["form-cad"]["email_cad"].value;
-
-	var camposCadastro = "nome="+nome+"&email="+email;
-}
-
-function setarCamposCadastro(){
-	var nome = document.forms["form-contato"]["nome"].value;
-	var sobrenome = document.forms["form-contato"]["sobrenome"].value;
-	var email = document.forms["form-contato"]["email"].value;
-	var telefone = document.forms["form-contato"]["telefone"].value;
-	var motivo_contato = document.forms["form-contato"]["motivo_contato"].value;
-	var text = document.forms["form-contato"]["text"].value;
-
-	var camposContato = "nome="+nome+"&sobrenome="+sobrenome+"&email="+email+"&telefone="+telefone+"&motivo_contato="+motivo_contato+"&text="+text;
-}
 
 function limpaCamposContato(){
 	var form = document.forms["form-contato"];
@@ -2422,25 +2393,41 @@ function limpaCamposCadastro(){
 	}
 }
 
-function enviaContato(url, camposContato, destino){
-
+function enviaContato(url, destino){
+	//Validação do formulário
 	var validate = validateFormContato();
 
+	//Campos do formulario
+	var nome = document.forms["form-contato"]["nome"].value;
+	var sobrenome = document.forms["form-contato"]["sobrenome"].value;
+	var email = document.forms["form-contato"]["email"].value;
+	var telefone = document.forms["form-contato"]["telefone"].value;
+	var motivo_contato = document.forms["form-contato"]["motivo_contato"].value;
+	var text = document.forms["form-contato"]["text"].value;
+
+	var camposContato = "nome="+nome+"&sobrenome="+sobrenome+"&email="+email+"&telefone="+telefone+"&motivo_contato="+motivo_contato+"&text="+text;
+
+	//Se validar fará o envio
 	if(validate){
 		var elemento = document.getElementById(destino);
-		objetoXML();
 
-		if (!envia){
+		if(window.XMLHttpRequest){
+			var enviaCont = new XMLHttpRequest();
+		}else{
+			var enviaCont = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+
+		if (!enviaCont){
 			elemento.innerHTML = "Impossivel iniciar o objeto!";
 		}
 		else{
 			elemento.setAttribute("class","d_back_box");
 		}
 
-		envia.onreadystatechange = function(){
-			if(envia.readyState == 4 || envia.readyState ==0){
-				if(envia.status ==200){
-					document.getElementById("content-resposta-ajax").innerHTML = envia.responseText;
+		enviaCont.onreadystatechange = function(){
+			if(enviaCont.readyState == 4 || enviaCont.readyState ==0){
+				if(enviaCont.status ==200){
+					document.getElementById("content-resposta-ajax").innerHTML = enviaCont.responseText;
 					setInterval(function(){elemento.removeAttribute("class","d_back_box")}, 2000);
 					limpaCamposContato();
 				}
@@ -2449,31 +2436,43 @@ function enviaContato(url, camposContato, destino){
 				}
 			}
 		}
-		envia.open("POST",url,true);
-		envia.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-		envia.send(camposContato);
+		enviaCont.open("POST",url,true);
+		enviaCont.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		enviaCont.send(camposContato);
 	}
 }
 
-function enviaCadastro(url, camposCadastro, destino){
-
+function enviaCadastro(url, destino){
+	//Validação do formulario
 	var validate = validateFormCad();
 
+	//Campos do formulario
+	var nomeCad = document.forms["form-cad"]["nome_cad"].value;
+	var emailCad = document.forms["form-cad"]["email_cad"].value;
+
+	var camposCadastro = "nome="+nomeCad+"&email="+emailCad;
+
+	//Se validar fará o envio
 	if(validate){
 		var elemento = document.getElementById(destino);
-		objetoXML();
 
-		if (!envia){
+		if(window.XMLHttpRequest){
+			var enviaCad = new XMLHttpRequest();
+		}else{
+			var enviaCad = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+
+		if (!enviaCad){
 			elemento.innerHTML = "Impossivel iniciar o objeto!";
 		}
 		else{
 			elemento.setAttribute("class","d_back_box");
 		}
 
-		envia.onreadystatechange = function(){
-			if(envia.readyState == 4 || envia.readyState ==0){
-				if(envia.status ==200){
-					document.getElementById("resposta_ajax_cad").innerHTML = envia.responseText;
+		enviaCad.onreadystatechange = function(){
+			if(enviaCad.readyState == 4 || enviaCad.readyState ==0){
+				if(enviaCad.status ==200){
+					document.getElementById("resposta_ajax_cad").innerHTML = enviaCad.responseText;
 					setInterval(function(){elemento.removeAttribute("class","d_back_box")}, 2000);
 					limpaCamposCadastro();
 				}
@@ -2482,9 +2481,9 @@ function enviaCadastro(url, camposCadastro, destino){
 				}
 			}
 		}
-		envia.open("POST",url,true);
-		envia.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-		envia.send(camposContato);
+		enviaCad.open("POST",url,true);
+		enviaCad.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		enviaCad.send(camposCadastro);
 	}
 }
 

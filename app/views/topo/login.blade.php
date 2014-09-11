@@ -17,7 +17,7 @@
 	</div>
 	<div class = "cont-login-b">
 		<span class = "wid-login">Cadastre-se gr&aacute;tis</span>
-		<form action = "/envia_cadastro_lg" method = "post" class = "wid-cad" onsubmit="setarCamposCadastro(); enviaCadastro('/envia_cadastro_lg', camposCadastro, 'resposta_ajax_cad'); return false;" name = "form-cad">
+		<form action = "/envia_cadastro_lg" method = "post" class = "wid-cad" onsubmit="enviaCadastro('/envia_cadastro_lg', 'resposta_ajax_cad'); return false;" name = "form-cad">
 			<div class = "div-login-spc">
 				<span id = "lg-img-name"></span><input type = "text" placeholder = "Nome" name = "nome_cad" class = "required">
 			</div>
