@@ -82,7 +82,7 @@
 </div>
 <div id = "copyright" class = "row">
 							<div class="col-sm-12"> 
-								<span>Copyright 2011-2014 Pricefinder Servi&ccedil;os Ltda.</span><br>
+								<span>Copyright 2011-2014 PriceFinder Servi&ccedil;os Ltda.</span><br>
 								O conte&uacute;do desse site &eacute; de uso exclusivo, proibida sob as penas da lei sua reprodu&ccedil;&atilde;o ou utiliza&ccedil;&atilde;o
 							</div>
 						</div>

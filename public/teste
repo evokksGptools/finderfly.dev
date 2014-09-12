@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>PriceFinder</title>
+<meta name="apple-itunes-app" content="app-id=487902075" />
+
+	<script type="text/javascript" src="affiliates/login.ashx?cl=1"></script>
+	<script type="text/javascript" src="advertisers/login.ashx?cl=1"></script>
+	
+		<script type="text/javascript" src="buyers/login.ashx?cl=1"></script>
+	
+<link type="image/x-icon" rel="icon" href="/assets/656/data/instanceimages/favicon.ico" />
+<link rel="stylesheet" type="text/css" href="resources/css/ext-all.css" />
+<link rel="stylesheet" href="stylesheets/master.css" />
+<link type="text/css" rel="stylesheet" href="resources/css/global.css" />
+<link rel="stylesheet" href="stylesheets/themes/default/theme.css?v=140910" />
+<link rel="stylesheet" href="/assets/656/data/chrome.css" />
+<link rel="stylesheet" href="/assets/656/data/theme.css" />
+<link rel="stylesheet" href="stylesheets/login.css" />
+
+<link id="custom_theme" rel="stylesheet" href="/colors.ashx?s=custom_theme" />
+<link id="custom_chrome" rel="stylesheet" href="/colors.ashx?s=custom_chrome" />
+
+<script type="text/javascript">
+var REDIR_LINK = '/advertise';
+var tpl = '';
+</script>
+</head>
+<body>
+	<div id="loading">
+		<div class="loading-indicator"><img src="images/24.gif" alt="" />PriceFinder<br /><span id="loading-msg">Loading Styles and Images ...</span></div>
+	</div>
+
+	<script type="text/javascript">document.getElementById('loading-msg').innerHTML = 'Loading Core API ...';</script>
+	<script type="text/javascript" src="ext/ext-base.js"></script>
+	<script type="text/javascript">document.getElementById('loading-msg').innerHTML = 'Loading UI Components ...';</script>
+	<script type="text/javascript" src="ext/ext-all.js"></script>
+	<script type="text/javascript">document.getElementById('loading-msg').innerHTML = 'Loading ...';</script>
+	<script type="text/javascript" src="js/newlogin.js?v=5"></script>
+	
+	<form action="login.ashx?tp=1" method="post" onsubmit="return false;">
+	<div id="document" class="group">
+		<img src="/assets/656/data/instanceimages/loginlogo.png" alt="" />
+		<input type="text" name="u" value="" id="u" placeholder="Username" />
+		<input type="password" name="p" value="" id="password" placeholder="Password" onKeyDown="if(event.keyCode==13) asubmit();" />
+		<div id="error" style="color: #f00; padding:10px 5px 5px 5px;"></div>
+		<div><a href="#" style="font-size:12px; margin-left: 5px;" onclick="forgotPassword();return false;">Forgot your password?</a></div>
+		<button id="submitButton" class="x-btn" style="border: 0px;" onclick="asubmit();">Log In</button>
+	</div>
+	</form>
+</body>
+</html>

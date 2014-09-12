@@ -16,3 +16,7 @@ Route::get('/', 'HomeController@index');
 Route::post('/envia_cadastro', 'HomeController@cadastro');
 
 Route::post('/envia_cadastro_lg', 'HomeController@cadastroLogin');
+
+Route::any('/login_cake', 'HomeController@login_cake');
+
+Route::get('/cake_true', 'HomeController@cake_true');
