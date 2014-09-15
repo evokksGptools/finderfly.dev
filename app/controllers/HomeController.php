@@ -153,6 +153,30 @@ class HomeController extends BaseController {
             
 			return Redirect::to("http://pricefindercp.com.br/advertisers/login.ashx?tp=1");
 	}
+
+	public function newlet(){
+
+		$app_id = '9378947';
+		$app_token = 'f3ebbaf9f4534c97b7b69349f152c3b4';
+		$app_client_id = 'contato-cuupjl';
+		$app_client_token = 'V8bAuXoDMohks2cBU436hgGzvdz1bipcXPnx2x2ZrgJOC1ItMXlM6koqjfbiUVdV';
+  
+		Podio::setup($app_client_id, $app_client_token);
+
+		$data = array(
+			'fields' => array(
+				"titulo" => Input::get("genero"),
+				"genero" => Input::get("email_newlet"),
+				"ip" => $_SERVER['REMOTE_ADDR']
+			)
+		);
+
+		Podio::authenticate('app', array('app_id' => $app_id, 'app_token' => $app_token));
+
+		PodioItem::create($app_id, $data);
+
+		return Redirect::to('/');
+	}
 }
 
 

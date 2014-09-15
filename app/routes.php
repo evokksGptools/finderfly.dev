@@ -20,3 +20,5 @@ Route::post('/envia_cadastro_lg', 'HomeController@cadastroLogin');
 Route::any('/login_cake', 'HomeController@login_cake');
 
 Route::get('/cake_true', 'HomeController@cake_true');
+
+Route::post('/newlet', 'HomeController@newlet');

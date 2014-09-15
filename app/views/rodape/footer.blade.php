@@ -53,7 +53,7 @@
 			</div>
 			<div class="grid-newlet">
 				<div class="newlet">
-					{{ Form::open(array('url' => '/','name'=>'newlet', 'id'=>'form_news')) }}
+					{{ Form::open(array('url' => '/newlet','name'=>'newlet', 'id'=>'form_news')) }}
 					<div class="newlet-cont">
 						<div class="tt-news">
 							Newsletter
