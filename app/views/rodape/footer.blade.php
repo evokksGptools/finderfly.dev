@@ -9,38 +9,38 @@
 					<div class="submenu">
 						<span class="titulo_rodape">PriceFinder</span>
 						<ul>
-							<li><a href="http://pricefinder.com.br/quem-somos" class="normal" target="_blank">Quem Somos</a></li>
-							<li><a href="http://pricefinder.com.br/termos-de-uso" class="normal" target="_blank">Termos de Uso</a></li>
-							<li><a href="http://pricefinder.com.br/politica-de-privacidade" class="normal" target="_blank">Pol&iacute;tica de Privacidade</a></li>
-							<li><a href="http://pricefinder.com.br/faq" class="normal" target="_blank">FAQ</a></li>
+							<li><a href="http://pricefinder.com.br/quem-somos" class="normal">Quem Somos</a></li>
+							<li><a href="http://pricefinder.com.br/termos-de-uso" class="normal">Termos de Uso</a></li>
+							<li><a href="http://pricefinder.com.br/politica-de-privacidade" class="normal">Pol&iacute;tica de Privacidade</a></li>
+							<li><a href="http://pricefinder.com.br/faq" class="normal">FAQ</a></li>
 						</ul>
 					</div>
 					<div class="submenu">
 						<span class="titulo_rodape">Consumidor</span> 
 						<ul>
-							<li><a href="http://pricefinder.com.br/compra-garantida" class="normal" target="_blank">Compra Garantida</a></li>
-							<li><a href="http://pricefinder.com.br/principais_lojas" class="normal" target="_blank">Principais Lojas</a></li>
-							<li><a href="http://pricefinder.com.br/fale-conosco" class="normal" target="_blank">Fale Conosco</a></li>
+							<li><a href="http://pricefinder.com.br/compra-garantida" class="normal">Compra Garantida</a></li>
+							<li><a href="http://pricefinder.com.br/principais_lojas" class="normal">Principais Lojas</a></li>
+							<li><a href="http://pricefinder.com.br/fale-conosco" class="normal">Fale Conosco</a></li>
 							
 						</ul>
 					</div>
 					<div class="submenu">
 						<span class="titulo_rodape">Anuncie</span>
 						<ul>
-							<li><a href="http://pricefinder.com.br/anuncie_gratis" class="normal" target="_blank">Anuncio Grátis</a></li>
-							<li><a href="http://pricefinder.com.br/banners" class="normal" target="_blank">Banners</a></li>
-							<li><a href="http://pricefinder.com.br/destaque_loja" class="normal" target="_blank">Destaque Loja</a></li>
-							<li><a href="http://pricefinder.com.br/busca_patrocinada" class="normal" target="_blank">Busca Patrocinada</a></li>
-							<li><a href="http://pricefinder.com.br/email-marketing" class="normal" target="_blank">E-mail Marketing</a></li>
-							<li><a href="http://pricefinder.com.br/atendimento-lojista" class="normal" target="_blank"><strong>Atendimento ao Lojista</strong></a></li>
+							<li><a href="http://pricefinder.com.br/anuncie_gratis" class="normal">Anuncio Grátis</a></li>
+							<li><a href="http://pricefinder.com.br/banners" class="normal">Banners</a></li>
+							<li><a href="http://pricefinder.com.br/destaque_loja" class="normal">Destaque Loja</a></li>
+							<li><a href="http://pricefinder.com.br/busca_patrocinada" class="normal">Busca Patrocinada</a></li>
+							<li><a href="http://pricefinder.com.br/email-marketing" class="normal">E-mail Marketing</a></li>
+							<li><a href="http://pricefinder.com.br/atendimento-lojista" class="normal"><strong>Atendimento ao Lojista</strong></a></li>
 						</ul>
 					</div>
 					<div class="submenu">
 						<span class="titulo_rodape">Produtos e Serviços</span>
 						<ul style="border-right: none;">
-							<li><a href="http://www.finderstore.com.br" class="normal" target="_blank">FinderStore - Loja Virtual</a></li>
-							<li><a href="http://www.finderpay.com.br" class="normal" target="_blank">FinderPay - Meio de Pagamento</a></li>
-							<li><a href="http://www.finderfly.com.br" class="normal" target="_blank">FinderFly - Programa de Afiliados</a></li>
+							<li><a href="http://www.finderstore.com.br" class="normal">FinderStore - Loja Virtual</a></li>
+							<li><a href="http://www.finderpay.com.br" class="normal">FinderPay - Meio de Pagamento</a></li>
+							<li><a href="http://www.finderfly.com.br" class="normal">FinderFly - Programa de Afiliados</a></li>
 						</ul>
 					</div>
 
