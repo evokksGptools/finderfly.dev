@@ -3097,7 +3097,7 @@ blockquote small {
 .header .logo-box {
   display: table;
   table-layout: fixed;
-  margin-top:9px;
+  margin-top:10px;
 }
 .header .logo {
   display: table-cell;

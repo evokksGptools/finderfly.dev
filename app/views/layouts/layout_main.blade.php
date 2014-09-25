@@ -10,7 +10,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="img/finderfly/Favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="img/finderfly/Favicon.png" type="image/x-icon"/>
   
   <!-- Font -->
   <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic'>
